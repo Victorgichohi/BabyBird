@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+}
+
+.home_div{
+  height: 100vh;
+  background-color: #460CE8;
+}
+.Skills_div{
+  height: 100vh;
+  background-color:#FF0000;
+}
+.Projects_div{
+  height: 100vh;
+  background-color: #E89C0C;
+}
+.Contact_div{
+  height: 100vh;
+  background-color: #22FAFF;
+}
