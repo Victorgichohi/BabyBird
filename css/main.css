@@ -92,11 +92,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 100vh;
   background-color:#5a53e7;
 }
-.Projects_div{
-  height: 100vh;
-  background-color: #E89C0C;
-}
+
 .Contact_div{
   height: 100vh;
   background-color: #22FAFF;
+}
+.Projects_intro{
+  height: 100vh;
+  background-color: #c4dfd7;
+}
+.Project1_div{
+  height: 100vh;
+  background-color: #8c76ee;
+}
+.Project2_div{
+  height: 100vh;
+  background-color: #27e235;
+}
+.Project3_div{
+  height: 100vh;
+  background-color: #0a0b0b;
+}
+.Project4_div{
+  height: 100vh;
+  background-color: #17b109;
 }
