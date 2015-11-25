@@ -103,10 +103,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 .Project1_div{
   height: 100vh;
+  /*width: 650px;*/
+  border: 5px solid black;
   /*background-color: #8c76ee;*/
 }
 .Project2_div{
   height: 100vh;
+  /*width: 650px;*/
+  border: 5px solid black;
   /*background-color: #27e235;*/
 }
 .Project3_div{
