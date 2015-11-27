@@ -148,7 +148,7 @@ nav.main-nav.stickytop {
   height: 100vh;
   /*background-color:#FF0000;*/
 }
-
+/*start of skills divs*/
 .Skills{
   height: 100vh;
   /*background-color:#5a53e7;*/
@@ -161,11 +161,15 @@ nav.main-nav.stickytop {
   height: 70vh;
   background-color: rgb(241, 132, 18);
 }
+/*end of skills segment*/
+/*start of contact segment*/
 
 .Contact_div{
   height: 100vh;
   background-color: #22FAFF;
 }
+/*end of contact segment*/
+/*start of projects div*/
 .Projects_intro{
   height: 100vh;
   background-color: #c4dfd7;
@@ -190,3 +194,4 @@ nav.main-nav.stickytop {
   height: 100vh;
   /*background-color: #17b109;*/
 }
+/*end of projects div*/
