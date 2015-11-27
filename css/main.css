@@ -168,7 +168,12 @@ nav.main-nav.stickytop {
   height: 100vh;
   background-color: #22FAFF;
 }
+.contact_form{
+  height: 100vh;
+  background-color: rgb(25, 102, 235);
+}
 /*end of contact segment*/
+
 /*start of projects div*/
 .Projects_intro{
   height: 100vh;
