@@ -18,32 +18,103 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/*header{
-      text-align: center;
+/*animated nav bar start*/
+nav.main-nav {
+    background:#fff;
+    height:60px;
+    border-bottom:1px solid #dadada;
+    text-align: center;
+}
 
-      font-size: 72px;
-      line-height: 108px;
-      height: 108px;
-      background: #335C7D;
-      color: #fff;
-      font-family: 'PT Sans', sans-serif;
+nav.main-nav a {
+    font-family:'Lato',sans-serif;
+    font-size:20px;
+    text-decoration:none;
+    display:inline-block;
+    padding:15px 19px;
+    color:#27ae60;
+}
 
-      // set animation
-      -webkit-transition: all 0.9s ease;
-      transition: all 0.9s ease;
-  }
+.container {
+    display: inline;
+    margin:0 auto;
+}
 
-  header.sticky {
-      position: fixed;
-      font-size: 24px;
-      line-height: 48px;
-      height: 48px;
-      width: 100%;
-      background: #efc47D;
-      text-align: center;
-      padding-left: 20px;
-  }*/
-  /*animate header stop*/
+nav.main-nav.stickytop {
+    position:fixed;
+    top:0
+}
+.content {
+    color:#222;
+    padding:50px;
+    -webkit-column-count:3;
+/* Chrome, Safari, Opera */
+    -moz-column-count:3;
+/* Firefox */
+    column-count:3;
+    -webkit-column-gap:40;
+    column-gap:40px;
+}
+
+.content h2 {
+    margin:0;
+}
+/*nav media queries*/
+@media all and (min-width: 360px) and (max-width: 480px) {
+    header {
+        padding:5px 0 55px;
+    }
+
+    nav.main-nav a {
+        font-size:17px;
+    }
+
+    nav.main-nav {
+        height:55px;
+    }
+
+    .container {
+        margin:0 auto;
+        width:50%;
+
+    }
+
+    .content {
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding:5px 0 55px;
+    }
+
+    nav.main-nav a {
+        font-size:17px;
+    }
+
+    nav.main-nav {
+        height:55px;
+    }
+
+    .container {
+        width:92%;
+    }
+
+    .content {
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1
+    }
+}
+/*nav media queries end*/
+/*animated nav bar stop*/
 .home_div{
   height: 100vh;
   background-image: url(../images/laptop4.jpg);
