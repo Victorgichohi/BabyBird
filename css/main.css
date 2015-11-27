@@ -148,20 +148,18 @@ nav.main-nav.stickytop {
   height: 100vh;
   /*background-color:#FF0000;*/
 }
-.circle {
-   width: 150px;
-  height: 150px;
-  /*margin:30px;*/
-  background: red;
-  -moz-border-radius: 100px;
-   -webkit-border-radius: 100px;
-   border-radius: 100px;
- }
 
-
-.skills_description{
+.Skills{
   height: 100vh;
-  background-color:#5a53e7;
+  /*background-color:#5a53e7;*/
+}
+.skills_types{
+  height: 70vh;
+  background-color: rgb(43, 137, 217);
+}
+.skills_description{
+  height: 70vh;
+  background-color: rgb(241, 132, 18);
 }
 
 .Contact_div{
