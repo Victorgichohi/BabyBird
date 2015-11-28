@@ -24,6 +24,7 @@ nav.main-nav {
     height:60px;
     border-bottom:1px solid #dadada;
     text-align: center;
+    /*z-index: 150px;*/
 }
 
 nav.main-nav a {
@@ -33,6 +34,7 @@ nav.main-nav a {
     display:inline-block;
     padding:15px 19px;
     color:#27ae60;
+    /*z-index: 150px;*/
 }
 
 .container {
@@ -42,7 +44,8 @@ nav.main-nav a {
 
 nav.main-nav.stickytop {
     position:fixed;
-    top:0
+    top:0;
+    z-index:30;
 }
 .content {
     color:#222;
