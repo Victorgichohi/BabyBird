@@ -266,6 +266,16 @@ nav.main-nav.stickytop {
     animation: bounceInUp 10s ease 0s,
         pulse 3s ease 10s infinite ;
 }
+#sass {
+    border:green;
+    /*margin-left: 50%;
+    margin-top: 0;*/
+
+    -webkit-animation: bounceInUp 10s ease 0s,
+        pulse 3s ease 10s infinite ;
+    animation: bounceInUp 10s ease 0s,
+        pulse 3s ease 10s infinite ;
+}
 
 #github {
     border:blue;
@@ -278,6 +288,26 @@ nav.main-nav.stickytop {
 }
 
 #python {
+    border:purple;
+    /*margin-left: 3%;
+    margin-top: -30%;*/
+   -webkit-animation: bounceInUp 15s ease 0s,
+        pulse 3s ease 15s infinite ;
+
+    animation: bounceInUp 15s ease 0s,
+        pulse 3s ease 15s infinite ;
+}
+#Django {
+    border:purple;
+    /*margin-left: 3%;
+    margin-top: -30%;*/
+   -webkit-animation: bounceInUp 15s ease 0s,
+        pulse 3s ease 15s infinite ;
+
+    animation: bounceInUp 15s ease 0s,
+        pulse 3s ease 15s infinite ;
+}
+#angular {
     border:purple;
     /*margin-left: 3%;
     margin-top: -30%;*/
