@@ -166,10 +166,10 @@ nav.main-nav.stickytop {
     position: relative;
 }
 /*** Circular Divs ***/
-.s2 {
+/*.s2 .holders{
     width: 20%;
     height: 100%;
-}
+}*/
 
 #icon-row-1 {
     position: relative;
@@ -220,7 +220,7 @@ nav.main-nav.stickytop {
     color:white;
 }
 
-.s4 {
+.s3 {
     height: 100%;
     position: relative;
 }
@@ -232,10 +232,10 @@ nav.main-nav.stickytop {
 **/
 
 
-#anger {
+#html {
     border:red;
-    margin-left: 22%;
-    margin-top: -30%;
+    /*margin-left: 22%;
+    margin-top: -30%;*/
 
     /*    animation:name duration timing-function delay iteration-count direction fill-mode play-state*/
 
@@ -245,10 +245,10 @@ nav.main-nav.stickytop {
         pulse 3s ease 5s infinite ;
 }
 
-#joy {
+#css {
     border:yellow;
-    margin-left: 0;
-    margin-top: 0;
+    /*margin-left: 0;
+    margin-top: 0;*/
 
     -webkit-animation: bounceInUp 7s ease 0s,
         pulse 3s ease 7s infinite ;
@@ -256,10 +256,10 @@ nav.main-nav.stickytop {
         pulse 3s ease 7s infinite ;
 }
 
-#disguist {
+#javascript {
     border:green;
-    margin-left: 50%;
-    margin-top: 0;
+    /*margin-left: 50%;
+    margin-top: 0;*/
 
     -webkit-animation: bounceInUp 10s ease 0s,
         pulse 3s ease 10s infinite ;
@@ -267,20 +267,20 @@ nav.main-nav.stickytop {
         pulse 3s ease 10s infinite ;
 }
 
-#sad {
+#github {
     border:blue;
-    margin-left: 43%;
-    margin-top: -30%;
+    /*margin-left: 43%;
+    margin-top: -30%;*/
     -webkit-animation: bounceInUp 13s ease 0s,
         pulse 3s ease 13s infinite ;
     animation: bounceInUp 13s ease 0s,
         pulse 3s ease 13s infinite ;
 }
 
-#fear {
+#python {
     border:purple;
-    margin-left: 3%;
-    margin-top: -30%;
+    /*margin-left: 3%;
+    margin-top: -30%;*/
    -webkit-animation: bounceInUp 15s ease 0s,
         pulse 3s ease 15s infinite ;
 
