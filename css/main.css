@@ -178,11 +178,25 @@ nav.main-nav.stickytop {
 /*end of contact segment*/
 
 /*start of projects div*/
-.Projects_intro{
+.portfolio{
   height: 100vh;
-  background-color: #c4dfd7;
+  border: 5px black solid;
+  margin: 0;
+
 }
-.portfolio h5 {
+.android_projects{
+  height: 40vh;
+  border: 5px solid black;
+  margin: 0;
+
+}
+.web_projects{
+  height: 40vh;
+  border: 5px solid black;
+  magin: 0;
+
+}
+/*.portfolio h5 {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -196,25 +210,6 @@ nav.main-nav.stickytop {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 45px;
-}
-.Project1_div{
-  height: 100vh;
-  /*width: 650px;*/
-  border: 5px solid black;
-  /*background-color: #8c76ee;*/
-}
-.Project2_div{
-  height: 100vh;
-  /*width: 650px;*/
-  border: 5px solid black;
-  /*background-color: #27e235;*/
-}
-.Project3_div{
-  height: 100vh;
-  /*background-color: #0a0b0b;*/
-}
-.Project4_div{
-  height: 100vh;
-  /*background-color: #17b109;*/
-}
+}*/
+
 /*end of projects div*/
