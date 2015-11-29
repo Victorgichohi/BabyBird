@@ -344,6 +344,21 @@ nav.main-nav.stickytop {
   height: 100vh;
   background-color: #c4dfd7;
 }
+.portfolio h5 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: 'Slabo 27px', serif;
+  text-transform: uppercase;
+  
+
+  font-size: 1.2rem;
+}
+.portfolio h6 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
 .Project1_div{
   height: 100vh;
   /*width: 650px;*/
