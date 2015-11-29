@@ -211,20 +211,30 @@ nav.main-nav.stickytop {
   text-transform: uppercase;
   margin:0;
 }
+/*zooming effect class*/
+.zoomimg {
+    display: inline-block;
+    width: 250px;
+    height: 375px;
+    padding: 0px 5px 0px 5px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.9s ease;
+}
+
+/*zooming effect class end*/
 .android1{
   background-color: rgb(78, 43, 167);
   height: 50vh;
   text-align: center;
-
 }
 .android1:hover{
-
-  background-image: url(../images/laptop4.jpg);
-  background-size: cover;
-
-
-
+cursor: pointer;
+background-size: 150% 150%;
+background-image: url(../images/laptop4.jpg);
 }
+
 .android2{
   background-color: rgb(238, 71, 10);
   height: 50vh;
@@ -232,7 +242,8 @@ nav.main-nav.stickytop {
 }
 .android2:hover{
   background-image: url(../images/laptop4.jpg);
-  background-size: cover;
+  cursor: pointer;
+  background-size: 150% 150%;
 }
 .web1{
   background-color: rgb(6, 6, 4);
@@ -241,7 +252,8 @@ nav.main-nav.stickytop {
 }
 .web1:hover{
   background-image: url(../images/laptop4.jpg);
-  background-size: cover;
+  cursor: pointer;
+  background-size: 150% 150%;
 }
 .web2{
   background-color:rgb(251, 248, 247);
@@ -250,7 +262,8 @@ nav.main-nav.stickytop {
 }
 .web2:hover{
   background-image: url(../images/laptop4.jpg);
-  background-size: cover;
+  cursor: pointer;
+  background-size: 150% 150%;
 }
 .web3{
   background-color: rgb(87, 165, 209);
@@ -258,9 +271,9 @@ nav.main-nav.stickytop {
   text-align: center;
 }
 .web3:hover{
-  background-color: rgb(87, 165, 209);
-  height: 40vh;
-  text-align: center;
+  background-image: url(../images/laptop4.jpg);
+  cursor: pointer;
+  background-size: 150% 150%;
 }
 .web_projects h1{
   padding-top: 30%;
