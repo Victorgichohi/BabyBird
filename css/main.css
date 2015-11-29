@@ -179,27 +179,27 @@ nav.main-nav.stickytop {
 
 /*start of projects div*/
 .portfolio{
-  height: 100vh;
-  border: 5px black solid;
-  margin: 0;
+  height: 90vh;
+  /*border: 5px black solid;*/
+  margin-bottom: 2px;
 
 }
 .android_projects{
-  height: 40vh;
-  border: 5px solid black;
+  height: 50vh;
+  /*border: 5px solid black;*/
   margin: 0;
 
 }
 .web_projects{
   height: 40vh;
-  border: 5px solid black;
-  magin: 0;
+  /*border: 5px solid black;*/
+  margin: 0;
 
 }
-/*.portfolio h5 {
+.portfolio h5 {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin:0;
   font-family: 'Slabo 27px', serif;
   text-transform: uppercase;
 
@@ -209,7 +209,63 @@ nav.main-nav.stickytop {
 .portfolio h6 {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 45px;
-}*/
+  margin:0;
+}
+.android1{
+  background-color: rgb(78, 43, 167);
+  height: 50vh;
+  text-align: center;
 
+}
+.android1:hover{
+
+  background-image: url(../images/laptop4.jpg);
+  background-size: cover;
+
+
+
+}
+.android2{
+  background-color: rgb(238, 71, 10);
+  height: 50vh;
+  text-align: center;
+}
+.android2:hover{
+  background-image: url(../images/laptop4.jpg);
+  background-size: cover;
+}
+.web1{
+  background-color: rgb(6, 6, 4);
+  height: 40vh;
+  text-align: center;
+}
+.web1:hover{
+  background-image: url(../images/laptop4.jpg);
+  background-size: cover;
+}
+.web2{
+  background-color:rgb(251, 248, 247);
+  height: 40vh;
+  text-align: center;
+}
+.web2:hover{
+  background-image: url(../images/laptop4.jpg);
+  background-size: cover;
+}
+.web3{
+  background-color: rgb(87, 165, 209);
+  height: 40vh;
+  text-align: center;
+}
+.web3:hover{
+  background-color: rgb(87, 165, 209);
+  height: 40vh;
+  text-align: center;
+}
+.web_projects h1{
+  padding-top: 30%;
+}
+.android_projects h1{
+  padding-top: 20%;
+}
 /*end of projects div*/
