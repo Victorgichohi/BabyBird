@@ -288,7 +288,51 @@ background-image: url(../images/laptop4.jpg);
 /*end of projects div*/
 /*start of slide in div*/
 
-#imagesDiv {
+#Android1Slide {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    display: none;
+}
+#Android2Slide {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    display: none;
+}
+#Web1Slide {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    display: none;
+}
+#Web2Slide {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    display: none;
+}
+#Web3Slide{
     background-color: red;
     width: 100%;
     height: 100%;

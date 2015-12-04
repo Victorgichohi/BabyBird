@@ -14,27 +14,27 @@ $(function(){
 // start of slide in
 
 $('.Android1click').click(function () {
-    $('#imagesDiv').animate({
+    $('#Android1Slide').animate({
         width: 'toggle'
     }, "slow")
 });
 $('.Android2click').click(function () {
-    $('#imagesDiv').animate({
+    $('#Android2Slide').animate({
         width: 'toggle'
     }, "slow")
 });
 $('.web1click').click(function () {
-    $('#imagesDiv').animate({
+    $('#Web1Slide').animate({
         width: 'toggle'
     }, "slow")
 });
 $('.web2click').click(function () {
-    $('#imagesDiv').animate({
+    $('#Web2Slide').animate({
         width: 'toggle'
     }, "slow")
 });
 $('.web3click').click(function () {
-    $('#imagesDiv').animate({
+    $('#Web3Slide').animate({
         width: 'toggle'
     }, "slow")
 });
