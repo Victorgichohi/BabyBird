@@ -13,11 +13,30 @@ $(function(){
 });
 // start of slide in
 
-$('.imagesDiv-link').click(function () {
+$('.Android1click').click(function () {
     $('#imagesDiv').animate({
         width: 'toggle'
     }, "slow")
 });
-
+$('.Android2click').click(function () {
+    $('#imagesDiv').animate({
+        width: 'toggle'
+    }, "slow")
+});
+$('.web1click').click(function () {
+    $('#imagesDiv').animate({
+        width: 'toggle'
+    }, "slow")
+});
+$('.web2click').click(function () {
+    $('#imagesDiv').animate({
+        width: 'toggle'
+    }, "slow")
+});
+$('.web3click').click(function () {
+    $('#imagesDiv').animate({
+        width: 'toggle'
+    }, "slow")
+});
 
 // stop of slide in
