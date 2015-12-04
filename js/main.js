@@ -12,13 +12,12 @@ $(function(){
 
 });
 // start of slide in
-$(document).ready(function () {
-    $('.hidden').hide()
-});
 
 $('.imagesDiv-link').click(function () {
     $('#imagesDiv').animate({
         width: 'toggle'
     }, "slow")
 });
+
+
 // stop of slide in
