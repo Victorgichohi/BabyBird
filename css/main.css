@@ -120,43 +120,56 @@ nav.main-nav.stickytop {
 /*animated nav bar stop*/
 .home_div{
   height: 100vh;
-  background-image: url(../images/laptop4.jpg);
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+        rgba(12, 12, 13, 0.64),
+      rgba(12, 12, 13, 0.64)
+
+    ),
+    /* bottom, image */
+    url(../images/desktop.jpg);
+
   background-size: cover;
   text-align: center;
   margin: 0;
 }
 .intro_main{
-  border: 3px solid black;
+
   height: 100vh;
   margin: 0;
 }
 .intro_block{
-  border: 3px solid black;
+  
   height: 100vh;
   margin: 0;
 }
 .intro{
-  padding-top: 150px;
+  padding-top: 100px;
 }
 .my_name h1 {
   font-family: 'Slabo 27px', serif;
+  font-size: 2rem;
   padding-top: 50px;
 }
 .my_development h5 {
   font-family: 'Slabo 27px', serif;
 
 
-  padding-top: 50px;
+  padding-top: 30px;
 
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 3rem;
+}
+.description{
+  padding-top: 30px;
 }
 .social{
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .social i {
   /*margin-top: 5px;*/
-  color: white;
+  color:rgb(147, 0, 131);
   margin: 10px;
 }
 .down_arrow{
