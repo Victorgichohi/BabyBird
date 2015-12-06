@@ -123,26 +123,46 @@ nav.main-nav.stickytop {
   background-image: url(../images/laptop4.jpg);
   background-size: cover;
   text-align: center;
+  margin: 0;
 }
-.intro h1 {
-  font-family: 'Slabo 27px', serif;
-  font-weight: 900;
-  text-transform: uppercase;
+.intro_main{
+  border: 3px solid black;
+  height: 100vh;
+  margin: 0;
 }
-.intro h5 {
+.intro_block{
+  border: 3px solid black;
+  height: 100vh;
+  margin: 0;
+}
+.intro{
+  padding-top: 150px;
+}
+.my_name h1 {
   font-family: 'Slabo 27px', serif;
-  text-transform: uppercase;
-  background-color: #f5f5f5;
-  padding: 10px;
-  color: #333333;
+  padding-top: 50px;
+}
+.my_development h5 {
+  font-family: 'Slabo 27px', serif;
+
+
+  padding-top: 50px;
+
   display: inline-block;
   font-size: 1.2rem;
 }
-.social i {
-  margin-top: 5px;
-  color: white;
-  padding: 10px;
+.social{
+  padding-top: 50px;
 }
+.social i {
+  /*margin-top: 5px;*/
+  color: white;
+  margin: 10px;
+}
+.down_arrow{
+  padding-top: 50px;
+}
+/*start of skills divs*/
 .Skills{
   height: 100vh;
 
@@ -151,7 +171,7 @@ nav.main-nav.stickytop {
   height: 100vh;
   /*background-color:#FF0000;*/
 }
-/*start of skills divs*/
+
 .Skills{
   height: 100vh;
   /*background-color:#5a53e7;*/
