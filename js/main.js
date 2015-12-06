@@ -6,8 +6,8 @@ $(function(){
         else {
             $('nav.main-nav').removeClass('stickytop');
         }
-				//  var scroll = $(window).scrollTop();
-				//  console.log(scroll);
+			//  var scroll = $(window).scrollTop();
+			// 	  console.log(scroll);
     });
 
 });
