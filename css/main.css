@@ -140,7 +140,7 @@ nav.main-nav.stickytop {
   margin: 0;
 }
 .intro_block{
-  
+
   height: 100vh;
   margin: 0;
 }
@@ -148,13 +148,16 @@ nav.main-nav.stickytop {
   padding-top: 100px;
 }
 .my_name h1 {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Inconsolata','Roboto', sans-serif;
+
+  color: white;
   font-size: 2rem;
   padding-top: 50px;
 }
 .my_development h5 {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Inconsolata','Roboto', sans-serif;
 
+  color: white;
 
   padding-top: 30px;
 
@@ -163,6 +166,11 @@ nav.main-nav.stickytop {
 }
 .description{
   padding-top: 30px;
+}
+.description p{
+  font-family: 'Inconsolata','Roboto', sans-serif;
+
+  color: white;
 }
 .social{
   padding-top: 30px;
