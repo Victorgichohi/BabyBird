@@ -196,6 +196,7 @@ nav.main-nav.stickytop {
 .Skills{
   height: 100vh;
   /*background-color:#5a53e7;*/
+  margin: 0;
 }
 .my_photo{
   height: 30vh;
@@ -216,6 +217,25 @@ nav.main-nav.stickytop {
   height: 70vh;
   background-color: rgb(51, 83, 249);
   margin:0;
+}
+.paragraph_about_me{
+  font-family: 'Inconsolata','Roboto', sans-serif;
+  color: rgb(254, 234, 0);
+}
+.about_me_title{
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+.my_skills_title{
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+hr{
+  width: 60%;
 }
 /*end of skills segment*/
 /*start of contact segment*/
