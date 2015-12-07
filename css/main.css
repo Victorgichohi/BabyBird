@@ -243,17 +243,7 @@ hr{
   width: 60%;
 }
 /*end of skills segment*/
-/*start of contact segment*/
 
-/*.Contact_div{
-  height: 100vh;
-  background-color: #22FAFF;
-}*/
-.contact_form{
-  height: 100vh;
-  background-color: rgb(25, 102, 235);
-}
-/*end of contact segment*/
 
 /*start of projects div*/
 .portfolio{
@@ -427,3 +417,12 @@ background-image: url(../images/laptop4.jpg);
     z-index: 40
 }
 /*end of slide in div*/
+/*start of contact segment*/
+
+
+.contact_form{
+  height: 100vh;
+  background-color: rgb(25, 102, 235);
+}
+
+/*end of contact segment*/
