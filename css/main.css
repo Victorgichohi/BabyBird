@@ -422,7 +422,27 @@ background-image: url(../images/laptop4.jpg);
 
 .contact_form{
   height: 100vh;
-  background-color: rgb(25, 102, 235);
+  /*background-color: rgb(25, 102, 235);*/
+  /*border: 5px solid black;*/
+}
+.contact_title{
+  /*border: 2px solid black;*/
+  padding-top:20px;
+}
+.contact_title_text{
+  text-align: center;
+}
+.contact_title_text p{
+    font-family:'Roboto', sans-serif;
+    font-size: 2rem;
+}
+.thankyou_text{
+  text-align: center;
+
+}
+.thankyou_text p{
+    font-family: 'Inconsolata','Roboto', sans-serif;
+    font-size: 1rem;
 }
 
 /*end of contact segment*/
