@@ -447,16 +447,20 @@ background-image: url(../images/laptop4.jpg);
 
 /*end of contact segment*/
 /*start of footer*/
+footer{
+  margin: 0;
+}
 .footer{
   height: 30vh;
   background-color: rgb(36, 36, 35);
+  margin: 0;
 }
 .footer_text{
 
   text-align: center;
 }
 .footer_text p{
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
   color: white;
 }
 .footer_text h1{
