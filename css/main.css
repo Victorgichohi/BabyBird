@@ -188,17 +188,11 @@ nav.main-nav.stickytop {
   height: 100vh;
   /*background-color:#5a53e7;*/
   margin: 0;
-  /*background:*/
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
-        rgba(12, 12, 13, 0.64),
-      rgba(12, 12, 13, 0.64)
 
-    ),
-    /* bottom, image */
-    url(../images/my_photo.jpg);
-
-  /*background-size: cover;*/
+}
+.skills_icons{
+  border: 5px solid black;
+  height: 100vh;
 }
 .my_image{
   padding-top: 20px;
@@ -228,6 +222,7 @@ padding-left: 250px;
   /*background-color: rgb(51, 83, 249);*/
   margin:0;
 }
+
 .paragraph_about_me{
   font-family: 'Inconsolata','Roboto', sans-serif;
   color: rgb(11, 11, 11);
