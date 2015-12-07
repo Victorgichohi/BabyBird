@@ -197,13 +197,25 @@ nav.main-nav.stickytop {
   height: 100vh;
   /*background-color:#5a53e7;*/
 }
-.skills_types{
-  height: 70vh;
-  /*background-color: rgb(43, 137, 217);*/
+.my_photo{
+  height: 30vh;
+  background-color: rgb(138, 244, 19);
+  margin:0;
+}
+.my_photo_image{
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  background: red;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
+  border-radius: 75px;
+  background-color: rgb(28, 29, 26);
 }
 .skills_description{
   height: 70vh;
-  background-color: rgb(241, 132, 18);
+  background-color: rgb(51, 83, 249);
+  margin:0;
 }
 /*end of skills segment*/
 /*start of contact segment*/
