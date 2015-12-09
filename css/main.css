@@ -243,7 +243,12 @@ padding-left: 250px;
 hr{
   width: 60%;
 }
-/*end of skills segment*/
+.Html{
+  background-image:url(../images/my_photo.jpg);
+  background-size: cover;
+
+}
+/*bend of skills segment*/
 
 
 /*start of projects div*/
