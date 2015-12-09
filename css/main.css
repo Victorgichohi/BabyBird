@@ -364,10 +364,11 @@ background-image: url(../images/laptop4.jpg);
     top: 0px;
     bottom: 0px;
     right: 0px;
-    overflow: hidden;
+    overflow:hidden;
     display: none;
-    z-index: 40
+    z-index: 40;
 }
+
 #Android2Slide {
     background-color: red;
     width: 100%;
@@ -378,7 +379,7 @@ background-image: url(../images/laptop4.jpg);
     right: 0px;
     overflow: hidden;
     display: none;
-    z-index: 40
+    z-index: 40;
 }
 #Web1Slide {
     background-color: red;
@@ -390,7 +391,7 @@ background-image: url(../images/laptop4.jpg);
     right: 0px;
     overflow: hidden;
     display: none;
-    z-index: 40
+    z-index: 40;
 }
 #Web2Slide {
     background-color: red;
@@ -402,7 +403,7 @@ background-image: url(../images/laptop4.jpg);
     right: 0px;
     overflow: hidden;
     display: none;
-    z-index: 40
+    z-index: 40;
 }
 #Web3Slide{
     background-color: red;
@@ -414,7 +415,7 @@ background-image: url(../images/laptop4.jpg);
     right: 0px;
     overflow: hidden;
     display: none;
-    z-index: 40
+    z-index: 40;
 }
 /*end of slide in div*/
 /*start of contact segment*/
