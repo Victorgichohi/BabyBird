@@ -196,6 +196,12 @@ nav.main-nav.stickytop {
   background-size: cover;
   
 }
+.About_me_div h1{
+  color: rgb(18, 242, 216);
+  font-family:'Roboto', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 20; 
+}
 .about_me_row{
   height: 100vh;
   margin: 0;
@@ -227,13 +233,70 @@ nav.main-nav.stickytop {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
 }
-
-
 hr{
   width: 40%;
 }
-
-/*bend of skills segment*/
+.team_work {
+  display: inline-block;
+  
+}
+.team_work_image{
+  position: relative;
+}
+.team_work_image:before{
+  content: "\f0c0";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: rgb(147, 0, 131);
+    font-size: 100px;
+    position: relative;
+}
+.cofee_image{
+  position: relative;
+}
+.cofee_image:before{
+   content: "\f0f4";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: rgb(147, 0, 131);
+    font-size: 100px;
+    position: relative;
+}
+.gaming_image{
+  position: relative;
+}
+.gaming_image:before{
+  content: "\f11b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: rgb(147, 0, 131);
+    font-size: 100px;
+    position: relative;
+}
+.music_image{
+  position: relative;
+}
+.music_image:before{
+  content: "\f001";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: rgb(147, 0, 131);
+    font-size: 100px;
+    position: relative;
+}
+/*end of description segment*/
 
 /*start of skills section*/
 .skills{
