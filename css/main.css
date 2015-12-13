@@ -11,7 +11,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font: inherit;
   vertical-align: baseline;
 }
-
+.row{
+  margin: 0 !important;
+}
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -184,26 +186,14 @@ nav.main-nav.stickytop {
 .down_arrow{
   padding-top: 50px;
 }
-/*start of skills divs*/
-.Skills{
-  height: 100vh;
-  /*background-color:#5a53e7;*/
-  margin: 0;
 
-}
-.skills_icons{
-  border: 5px solid black;
+
+/*start of about me divs*/
+.About_me_div{
   height: 100vh;
-}
-.my_image{
-  padding-top: 20px;
-padding-left: 250px;
-}
-.skills_description{
-  height: 100vh;
-  width: 100%;
+  
   /*background-color: rgb(51, 83, 249);*/
-  margin:0;
+  
   background:
   linear-gradient(
       rgba(12, 12, 13, 0.64),
@@ -215,15 +205,20 @@ padding-left: 250px;
   background-size: cover;
   border: 5px solid black;
 }
-
-.my_description_div{
+.about_me_row{
+  height: 100vh;
+  margin: 0;
+}
+.about_me_description{
   height: 100vh;
   border: 5px solid black;
-
+  
+  
 }
 .place_holder{
-  height: 100vh;
+  height: 95vh;
   border: 3px solid blue;
+  margin:0;
 }
 
 .paragraph_about_me{
@@ -237,11 +232,7 @@ padding-left: 250px;
   font-size: 2rem;
 }
 
-.my_skills_title{
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-}
+
 hr{
   width: 60%;
 }
