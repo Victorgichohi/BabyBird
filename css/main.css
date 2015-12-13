@@ -214,19 +214,21 @@ nav.main-nav.stickytop {
 
 .first_title{
   color: whitesmoke;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-family:'Inconsolata','Roboto', sans-serif; 
+  font-size: 22px;
   
 }
 .paragraph_on_me{
   color: whitesmoke;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-size: 1em;
- 
+  font-family:'Josefin Slab', serif;
+  font-size: 20px;
+  text-align:  justify;
+  
+  white-space:  pre-wrap;
 }
 .conclusion_paragraph{
   color: whitesmoke;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family:'Inconsolata','Roboto', sans-serif;
   font-size: 1em;
 }
 
