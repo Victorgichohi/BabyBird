@@ -257,82 +257,196 @@ hr{
 .html{
   width: 80px;
 	height: 80px;
-	background: red;
+	/*background: red;*/
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
+  position: relative;
+}
+.html:before{
+    content: "\f13b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 90px;
+    position: absolute;
 }
 .css{
   width: 80px;
 	height: 80px;
-	background: red;
+	
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
+  position: relative;
+}
+.css:before{
+    content: "\f13b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 90px;
+    position: absolute
 }
 .javascript{
   width: 80px;
 	height: 80px;
-	background: red;
+	
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
+  position: relative;
+}
+.javascript:before{
+  content: "\f13b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 90px;
+    position: absolute
 }
 .python{
   width: 80px;
 	height: 80px;
-	background: red;
+	
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
+  position: relative;
+}
+.python:before{
+  content: "\f13b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 90px;
+    position: absolute;
 }
 .django{
   width: 80px;
 	height: 80px;
-	background: red;
+	position: relative;
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
+}
+.django:before{
+  content: "\f13b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 90px;
+    position: absolute;
 }
 .android_front_end{
   width: 80px;
 	height: 80px;
-	background: red;
+	position: relative;
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
+}
+.android_front_end:before{
+  content: "\f13b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 90px;
+    position: absolute;
 }
 .android_back_end{
   width: 80px;
 	height: 80px;
-	background: red;
+	position: relative;
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
+}
+.android_back_end:before{
+  content: "\f13b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 90px;
+    position: absolute
 }
 .git{
   width: 80px;
 	height: 80px;
-	background: red;
+	position: relative;
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
+}
+.git:before{
+  content: "\f13b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 90px;
+    position: absolute;
 }
 .linux{
   width: 80px;
 	height: 80px;
-	background: red;
+	position: relative;
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
 }
+.linux:before{
+  content: "\f13b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 90px;
+    position: absolute;
+}
 .atom{
   width: 80px;
 	height: 80px;
-	background: red;
+  position: relative;
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
+}
+.atom:before{
+  content: "\f13b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 90px;
+    position: absolute;
 }
 /*end of skills section*/
 /*start of projects div*/
