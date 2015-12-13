@@ -278,6 +278,62 @@ hr{
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
 }
+.python{
+  width: 80px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+.django{
+  width: 80px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+.android_front_end{
+  width: 80px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+.android_back_end{
+  width: 80px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+.git{
+  width: 80px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+.linux{
+  width: 80px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+.atom{
+  width: 80px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
 /*end of skills section*/
 /*start of projects div*/
 .portfolio{
