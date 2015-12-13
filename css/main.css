@@ -36,13 +36,16 @@ nav.main-nav {
 }
 
 nav.main-nav a {
-    font-family:'Roboto', sans-serif;
+    font-family:'Hevetica','Roboto', sans-serif;
     font-size:1.5rem;
     text-decoration:none;
     display:inline-block;
-    padding:15px 39px;
-    color:#27ae60;
+    
+    color:#000;
     /*z-index: 150px;*/
+}
+nav.main-nav a:hover{
+  color: rgb(238, 71, 10);
 }
 
 .container {
@@ -54,22 +57,10 @@ nav.main-nav.stickytop {
     position:fixed;
     top:0;
     z-index:30;
-}
-.content {
-    color:#222;
-    padding:50px;
-    -webkit-column-count:3;
-/* Chrome, Safari, Opera */
-    -moz-column-count:3;
-/* Firefox */
-    column-count:3;
-    -webkit-column-gap:40;
-    column-gap:40px;
+    color: #000;
 }
 
-.content h2 {
-    margin:0;
-}
+
 /*nav media queries*/
 @media all and (min-width: 360px) and (max-width: 480px) {
     header {
@@ -128,15 +119,8 @@ nav.main-nav.stickytop {
 /*animated nav bar stop*/
 .home_div{
   height: 100vh;
-  background:
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
-        rgba(12, 12, 13, 0.64),
-      rgba(12, 12, 13, 0.64)
-
-    ),
-    /* bottom, image */
-    url(../images/desktop.jpg);
+  background:black;
+    
 
   background-size: cover;
   text-align: center;
@@ -179,7 +163,7 @@ nav.main-nav.stickytop {
 .social i {
   /*margin-top: 5px;*/
   color:rgb(147, 0, 131);
-  
+  padding: 5px;
 }
 
 
