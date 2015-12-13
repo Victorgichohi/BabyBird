@@ -581,49 +581,39 @@ background-image: url(../images/laptop4.jpg);
 .web1description{
   width: 1200px;
   height: 800px;
-  border:5px solid black;
+  
 }
 .web1description_text{
   height: 800px;
-  border:5px solid black;
-  width: 350px;
+  
+  width: 400px;
   position: absolute;
 }
+
 .web1image1{
 
- left:30%;
+ left:40%;
  position: absolute;
   width: 400px; 
   height: 250px;
-  border:5px solid blue;
   
-  /*background-image: url(../images/laptop4.jpg);
-  background-size: cover;*/
+  
+  background-image: url(../images/web1image1.png);
+  background-size: cover;
 }
 .web1image2{
 
- left:30%;
+ left:40%;
  top: 60%;
  position: absolute;
   width: 400px; 
   height: 250px;
-  border:5px solid black;
   
-  /*background-image: url(../images/laptop4.jpg);
-  background-size: cover;*/
+  
+  background-image: url(../images/web1image2.png);
+  background-size: cover;
 }
-.web1image3{
 
- left:60%;
- 
- position: absolute;
-  width: 400px; 
-  height: 250px;
-  border:5px solid black;
-  
-  /*background-image: url(../images/laptop4.jpg);
-  background-size: cover;*/
-}
 #web1Slide p{
   font-family:'Inconsolata','Roboto', sans-serif;
   font-size: 1em;
