@@ -155,37 +155,28 @@ nav.main-nav.stickytop {
 
   color: white;
   font-size: 2rem;
-  padding-top: 50px;
+  
 }
 .my_development h5 {
   font-family: 'Inconsolata','Roboto', sans-serif;
 
   color: white;
-
-  padding-top: 30px;
-
   display: inline-block;
   font-size: 3rem;
 }
-.description{
-  padding-top: 30px;
-}
+
 .description p{
   font-family: 'Inconsolata','Roboto', sans-serif;
 
   color: white;
 }
-.social{
-  padding-top: 30px;
-}
+
 .social i {
   /*margin-top: 5px;*/
   color:rgb(147, 0, 131);
-  margin: 10px;
+  
 }
-.down_arrow{
-  padding-top: 50px;
-}
+
 
 
 /*start of about me divs*/
