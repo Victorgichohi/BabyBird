@@ -230,17 +230,35 @@ nav.main-nav.stickytop {
 
 
 hr{
-  width: 60%;
+  width: 40%;
 }
 
 /*bend of skills segment*/
 
+/*start of skills section*/
+.skills{
+  height: 100vh;
+  border:3px solid black;
+}
+.skills_title{
+  height: 30vh;
+  border:3px solid black;
 
+}
+.skills_title_text{
+  text-align: center;
+}
+.skills_rate_and_icons{
+  height: 70vh;
+  border:3px solid black;
+
+}
+/*end of skills section*/
 /*start of projects div*/
 .portfolio{
-  height: 90vh;
+  height: 100vh;
   /*border: 5px black solid;*/
-  margin-bottom: 2px;
+  margin:0;
 
 }
 .android_projects{
@@ -250,7 +268,7 @@ hr{
 
 }
 .web_projects{
-  height: 40vh;
+  height: 50vh;
   /*border: 5px solid black;*/
   margin: 0;
 
