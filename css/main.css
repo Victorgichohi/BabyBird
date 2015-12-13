@@ -252,7 +252,10 @@ hr{
 .skills_rate_and_icons{
   height: 70vh;
   /*border:3px solid black;*/
-
+}
+.ratings_icons{
+  display: inline-block;
+  
 }
 .html{
   width: 80px;
@@ -271,7 +274,7 @@ hr{
     text-decoration: inherit;
 /*--adjust as necessary--*/
     color: #000;
-    font-size: 90px;
+    font-size: 60px;
     position: absolute;
 }
 .css{
@@ -284,56 +287,37 @@ hr{
   position: relative;
 }
 .css:before{
-    content: "\f13b";
+    content: "\f13c";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
 /*--adjust as necessary--*/
     color: #000;
-    font-size: 90px;
+    font-size: 60px;
     position: absolute
 }
 .javascript{
-  width: 80px;
-	height: 80px;
-	
-	-moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
-	border-radius: 40px;
-  position: relative;
+  width: 100px;
+	height: 110px;
+	position: relative;
+  border-radius: 55px;
+  background-image: url(../images/js.png);
+  background-size: 110px;
+  
 }
-.javascript:before{
-  content: "\f13b";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #000;
-    font-size: 90px;
-    position: absolute
-}
+
 .python{
   width: 80px;
-	height: 80px;
+	height: 100px;
 	
-	-moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
-	border-radius: 40px;
+	
+	
   position: relative;
+  background-image: url(../images/python-black.png);
+  background-size: cover;
 }
-.python:before{
-  content: "\f13b";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #000;
-    font-size: 90px;
-    position: absolute;
-}
+
 .django{
   width: 80px;
 	height: 80px;
@@ -341,18 +325,10 @@ hr{
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
+  background-image: url(../images/django_icon.png);
+  background-size: cover;
 }
-.django:before{
-  content: "\f13b";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #000;
-    font-size: 90px;
-    position: absolute;
-}
+
 .android_front_end{
   width: 80px;
 	height: 80px;
@@ -362,14 +338,14 @@ hr{
 	border-radius: 40px;
 }
 .android_front_end:before{
-  content: "\f13b";
+  content: "\f17b";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
 /*--adjust as necessary--*/
     color: #000;
-    font-size: 90px;
+    font-size: 60px;
     position: absolute;
 }
 .android_back_end{
@@ -381,14 +357,14 @@ hr{
 	border-radius: 40px;
 }
 .android_back_end:before{
-  content: "\f13b";
+  content: "\f17b";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
 /*--adjust as necessary--*/
     color: #000;
-    font-size: 90px;
+    font-size: 60px;
     position: absolute
 }
 .git{
@@ -400,14 +376,14 @@ hr{
 	border-radius: 40px;
 }
 .git:before{
-  content: "\f13b";
+    content: "\f113";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
 /*--adjust as necessary--*/
     color: #000;
-    font-size: 90px;
+    font-size: 60px;
     position: absolute;
 }
 .linux{
@@ -419,14 +395,14 @@ hr{
 	border-radius: 40px;
 }
 .linux:before{
-  content: "\f13b";
+  content: "\f17c";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
 /*--adjust as necessary--*/
     color: #000;
-    font-size: 90px;
+    font-size: 60px;
     position: absolute;
 }
 .atom{
@@ -436,18 +412,10 @@ hr{
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
+  background-image: url(../images/atom.png);
+  background-size: cover;
 }
-.atom:before{
-  content: "\f13b";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #000;
-    font-size: 90px;
-    position: absolute;
-}
+
 /*end of skills section*/
 /*start of projects div*/
 .portfolio{
