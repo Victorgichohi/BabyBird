@@ -238,11 +238,12 @@ hr{
 /*start of skills section*/
 .skills{
   height: 100vh;
-  border:3px solid black;
+  /*border:3px solid black;*/
+  background-color: rgb(18, 242, 216);
 }
 .skills_title{
   height: 30vh;
-  border:3px solid black;
+  /*border:3px solid black;*/
 
 }
 .skills_title_text{
@@ -250,8 +251,32 @@ hr{
 }
 .skills_rate_and_icons{
   height: 70vh;
-  border:3px solid black;
+  /*border:3px solid black;*/
 
+}
+.html{
+  width: 80px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+.css{
+  width: 80px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+.javascript{
+  width: 80px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
 }
 /*end of skills section*/
 /*start of projects div*/
