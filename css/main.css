@@ -234,6 +234,7 @@ padding-left: 250px;
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
 }
+
 .my_skills_title{
   padding-top: 50px;
   text-align: center;
@@ -244,8 +245,13 @@ hr{
   width: 60%;
 }
 .Html{
-  background-image:url(../images/my_photo.jpg);
+  width: 50px;
+  height: 50px;
+  background:url(../images/html5.png);
   background-size: cover;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25spx;
 
 }
 /*bend of skills segment*/
