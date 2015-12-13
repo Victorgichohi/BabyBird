@@ -199,9 +199,11 @@ nav.main-nav.stickytop {
   padding-top: 20px;
 padding-left: 250px;
 }
-.my_image_div{
-  width: 150px;
-  height: 150px;
+.skills_description{
+  height: 100vh;
+  width: 100%;
+  /*background-color: rgb(51, 83, 249);*/
+  margin:0;
   background:
   linear-gradient(
       rgba(12, 12, 13, 0.64),
@@ -211,17 +213,17 @@ padding-left: 250px;
   /* bottom, image */
   url(../images/my_photo.jpg);
   background-size: cover;
-  -moz-border-radius: 75px;
-  -webkit-border-radius: 75px;
-  border-radius: 75spx;
-
+  border: 5px solid black;
 }
 
+.my_description_div{
+  height: 100vh;
+  border: 5px solid black;
 
-.skills_description{
-  height: 70vh;
-  /*background-color: rgb(51, 83, 249);*/
-  margin:0;
+}
+.place_holder{
+  height: 100vh;
+  border: 3px solid blue;
 }
 
 .paragraph_about_me{
@@ -229,14 +231,13 @@ padding-left: 250px;
   color: rgb(11, 11, 11);
 }
 .about_me_title{
-  padding-top: 50px;
+
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
 }
 
 .my_skills_title{
-  padding-top: 50px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
@@ -244,16 +245,7 @@ padding-left: 250px;
 hr{
   width: 60%;
 }
-.Html{
-  width: 50px;
-  height: 50px;
-  background:url(../images/html5.png);
-  background-size: cover;
-  -moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
-  border-radius: 25spx;
 
-}
 /*bend of skills segment*/
 
 
