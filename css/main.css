@@ -211,7 +211,7 @@ nav.main-nav.stickytop {
   margin: 0!important;
   background:
   linear-gradient(
-      rgb(78, 23, 167),
+      rgba(12, 12, 13, 0.64),
     rgba(12, 12, 13, 0.64)
 
   );
@@ -223,81 +223,26 @@ nav.main-nav.stickytop {
   margin:0;
 }
 
-.paragraph_about_me{
-  font-family:'Inconsolata','Roboto', sans-serif;
-  color: rgb(251, 248, 247);
-  font-size: 1.3rem;
-  font-weight: 500;
-}
-.about_me_title{
-  color: rgb(251, 248, 247);
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-}
-hr{
-  width: 40%;
-}
-.team_work{
-  display: inline-block;
+.first_title{
+  color: whitesmoke;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
   
 }
-.team_work_image:before{
-  content: "\f13b";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #dadada;
-    font-size: 90px;
-    
+.paragraph_on_me{
+  color: whitesmoke;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1em;
+ 
 }
-.coffee_image{
-  display: inline-block;
-  
+.conclusion_paragraph{
+  color: whitesmoke;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1em;
 }
-.coffee_image:before{
-  content: "\f13b";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #dadada;
-    font-size: 90px;
-    
-}
-.gaming_images{
-  display: inline-block;
-  
-}
-.gaming_images:before{
-  content: "\f13b";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #dadada;
-    font-size: 90px;
-    
-}
-.music_image{
-  display: inline-block;
-  
-}
-.music_image:before{
-  content: "\f13b";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #dadada;
-    font-size: 90px;
-    
-}
+
+
+
 /*start of skills section*/
 .skills{
   height: 100vh;
