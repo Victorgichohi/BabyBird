@@ -211,7 +211,7 @@ nav.main-nav.stickytop {
   margin: 0!important;
   background:
   linear-gradient(
-      rgba(12, 12, 13, 0.64),
+      rgb(78, 23, 167),
     rgba(12, 12, 13, 0.64)
 
   );
@@ -224,8 +224,10 @@ nav.main-nav.stickytop {
 }
 
 .paragraph_about_me{
-  font-family: 'Inconsolata','Roboto', sans-serif;
+  font-family:'Inconsolata','Roboto', sans-serif;
   color: rgb(251, 248, 247);
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 .about_me_title{
   color: rgb(251, 248, 247);
@@ -236,68 +238,66 @@ nav.main-nav.stickytop {
 hr{
   width: 40%;
 }
-.team_work {
+.team_work{
   display: inline-block;
   
 }
-.team_work_image{
-  position: relative;
-}
 .team_work_image:before{
-  content: "\f0c0";
+  content: "\f13b";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
 /*--adjust as necessary--*/
-    color: rgb(147, 0, 131);
-    font-size: 100px;
-    position: relative;
+    color: #dadada;
+    font-size: 90px;
+    
 }
-.cofee_image{
-  position: relative;
+.coffee_image{
+  display: inline-block;
+  
 }
-.cofee_image:before{
-   content: "\f0f4";
+.coffee_image:before{
+  content: "\f13b";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
 /*--adjust as necessary--*/
-    color: rgb(147, 0, 131);
-    font-size: 100px;
-    position: relative;
+    color: #dadada;
+    font-size: 90px;
+    
 }
-.gaming_image{
-  position: relative;
+.gaming_images{
+  display: inline-block;
+  
 }
-.gaming_image:before{
-  content: "\f11b";
+.gaming_images:before{
+  content: "\f13b";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
 /*--adjust as necessary--*/
-    color: rgb(147, 0, 131);
-    font-size: 100px;
-    position: relative;
+    color: #dadada;
+    font-size: 90px;
+    
 }
 .music_image{
-  position: relative;
+  display: inline-block;
+  
 }
 .music_image:before{
-  content: "\f001";
+  content: "\f13b";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
 /*--adjust as necessary--*/
-    color: rgb(147, 0, 131);
-    font-size: 100px;
-    position: relative;
+    color: #dadada;
+    font-size: 90px;
+    
 }
-/*end of description segment*/
-
 /*start of skills section*/
 .skills{
   height: 100vh;
