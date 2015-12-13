@@ -203,21 +203,26 @@ nav.main-nav.stickytop {
 .about_me_description{
   height: 100vh;
   border: 5px solid black;
-  
+  background:
+  linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+
+  );
   
 }
 .place_holder{
-  height: 95vh;
+  height: 100vh;
   border: 3px solid blue;
   margin:0;
 }
 
 .paragraph_about_me{
   font-family: 'Inconsolata','Roboto', sans-serif;
-  color: rgb(11, 11, 11);
+  color: rgb(251, 248, 247);
 }
 .about_me_title{
-
+  color: rgb(251, 248, 247);
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
