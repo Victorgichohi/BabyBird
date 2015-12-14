@@ -245,6 +245,13 @@ nav.main-nav.stickytop {
   /*border:3px solid black;*/
 
 }
+.skills_description{
+  font-family:'Josefin Slab', serif;
+  font-size: 20px;
+  text-align:  justify;
+  
+  white-space:  pre-wrap;
+}
 .skills_title_text{
   text-align: center;
 }
