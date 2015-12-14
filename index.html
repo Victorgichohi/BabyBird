@@ -517,9 +517,10 @@
 
     <!-- end of contact div -->
   </div>
-  </script>
-<!--smoot scroll-->
-<script type="text/javascript">$(function() {
+  
+<!-- jquery smooth scroll to id's -->   
+<script>
+$(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -527,12 +528,13 @@
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 500);
         return false;
       }
     }
   });
-});</script>
+});
+</script>
   <script src="js/jquery.min.js"></script>
   <script src="js/main.js"></script>
   <!--Import jQuery before materialize.js-->
