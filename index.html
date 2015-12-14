@@ -442,17 +442,29 @@
 
           <div class="col s6">
             <br><br>
+           <!--forms.io demo start-->
+          <!--<form id="contactform" method="POST">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <input type="hidden" name="_subject" value="Website contact" />
+    <textarea name="message" placeholder="Your message"></textarea>
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="submit" value="Send">
+</form>-->
+
+           <!--forms.io end-->
+           <form id="contactform" method="POST">
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
-                <input id="icon_prefix" type="text" class="validate">
+                <input name="name" id="icon_prefix" type="text" class="validate">
                 <label for="icon_prefix">Names*</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">email</i>
-                <input id="email" type="email" class="validate">
+                <input name="_replyto" id="email" type="email" class="validate">
                 <label for="email">Email*</label>
               </div>
             </div>
@@ -466,7 +478,7 @@
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">mode_edit</i>
-                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                <textarea name="message" id="icon_prefix2" class="materialize-textarea"></textarea>
                 <label for="icon_prefix2">Message*</label>
               </div>
             </div>
@@ -478,6 +490,9 @@
                 </button>
               </div>
             </div>
+            <!--<input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />-->
+
+           </form>
           </div>
           <br><br>
           <!-- submit button -->
@@ -519,7 +534,10 @@
   </div>
   
 <!-- jquery smooth scroll to id's -->   
-
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'victorgichohi48' + '@' + 'gmail' + '.' + 'com');
+</script>
   <script src="js/jquery.min.js"></script>
   <script src="js/main.js"></script>
   <!--Import jQuery before materialize.js-->
