@@ -437,9 +437,11 @@ background-image: url(../images/laptop4.jpg);
   background-color: rgb(6, 6, 4);
   height: 50vh;
   text-align: center;
+  font-size:35px;
+  color: whitesmoke;
 }
 .web1:hover{
-  background-image: url(../images/laptop4.jpg);
+  background-image: url(../images/model3.jpg);
   cursor: pointer;
   background-size: 150% 150%;
 }
