@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+ 
+}
+body{
+   overflow-y: scroll;
+  overflow-x: hidden;
+}
+.row{
+  margin: 0 !important;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/*nav bar start*/
+.nabar{
+	background-color:  rgb(251, 248, 247);
+	align-items:  center;
+}
+/*nav bar stop*/
+/*start of projects div*/
+.portfolio{
+  height: 100vh;
+  /*border: 5px black solid;*/
+  margin:0;
+
+}
+.android_projects{
+  height: 50vh;
+  /*border: 5px solid black;*/
+  margin: 0;
+
+}
+.web_projects{
+  height: 50vh;
+  /*border: 5px solid black;*/
+  margin: 0;
+
+}
+.portfolio h5 {
+  text-align: center;
+  text-transform: uppercase;
+  margin:0;
+  font-family: 'Slabo 27px', serif;
+  text-transform: uppercase;
+
+
+  font-size: 1.2rem;
+}
+.portfolio h6 {
+  text-align: center;
+  text-transform: uppercase;
+  margin:0;
+}
+/*zooming effect class*/
+.zoomimg {
+    display: inline-block;
+    width: 250px;
+    height: 375px;
+    padding: 0px 5px 0px 5px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.9s ease;
+}
+
+/*zooming effect class end*/
+.android1{
+  background-color: rgb(78, 43, 167);
+  height: 50vh;
+  text-align: center;
+}
+.android1:hover{
+cursor: pointer;
+background-size: 150% 150%;
+background-image: url(../images/laptop4.jpg);
+}
+.android1_explanation{
+  height: 100vh;
+  background-color: rgb(49, 77, 252);
+}
+
+.android2{
+  background-color: rgb(238, 71, 10);
+  height: 50vh;
+  text-align: center;
+}
+.android2:hover{
+  background-image: url(../images/laptop4.jpg);
+  cursor: pointer;
+  background-size: 150% 150%;
+}
+.web1{
+  background-color: rgb(6, 6, 4);
+  height: 50vh;
+  text-align: center;
+  font-size:35px;
+  color: whitesmoke;
+}
+.web1:hover{
+  background-image: url(../images/model3.jpg);
+  cursor: pointer;
+  background-size: 150% 150%;
+}
+.web2{
+  background-color:rgb(251, 248, 247);
+  height: 50vh;
+  text-align: center;
+}
+.web2:hover{
+  background-image: url(../images/laptop4.jpg);
+  cursor: pointer;
+  background-size: 150% 150%;
+}
+.web3{
+  background-color: rgb(87, 165, 209);
+  height: 50vh;
+  text-align: center;
+}
+.web3:hover{
+  background-image: url(../images/laptop4.jpg);
+  cursor: pointer;
+  background-size: 150% 150%;
+}
+.web_projects h1{
+  padding-top: 30%;
+}
+.android_projects h1{
+  padding-top: 20%;
+}
+/*end of projects div*/
+/*start of slide in div*/
+
+#Android1Slide {
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow:hidden;
+    display: none;
+    z-index: 40;
+}
+
+#Android2Slide {
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    display: none;
+    z-index: 40;
+}
+#Web1Slide {
+    background-color: ghostwhite;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    
+    display: none;
+    z-index: 40;
+}
+.web1description{
+  width: 1200px;
+  height: 800px;
+  
+}
+.web1description_text{
+  height: 800px;
+  
+  width: 400px;
+  position: absolute;
+}
+
+.web1image1{
+
+ left:40%;
+ position: absolute;
+  width: 400px; 
+  height: 250px;
+  
+  
+  background-image: url(../images/web1image1.png);
+  background-size: cover;
+}
+.web1image2{
+
+ left:40%;
+ top: 60%;
+ position: absolute;
+  width: 400px; 
+  height: 250px;
+  
+  
+  background-image: url(../images/web1image2.png);
+  background-size: cover;
+}
+.web2image1{
+
+ left:40%;
+ position: absolute;
+  width: 400px; 
+  height: 250px;
+  
+  
+  background-image: url(../images/web2image1.png);
+  background-size: cover;
+}
+.web2image2{
+
+ left:40%;
+ top: 60%;
+ position: absolute;
+  width: 400px; 
+  height: 250px;
+  
+  
+  background-image: url(../images/web2image2.png);
+  background-size: cover;
+}
+
+#web1Slide p{
+  font-family:'Inconsolata','Roboto', sans-serif;
+  font-size: 1em;
+  color: black; 
+}
+#Web2Slide {
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    display: none;
+    z-index: 40;
+}
+#Web3Slide{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    display: none;
+    z-index: 40;
+}
+/*end of slide in div*/
+
+/*start of footer*/
+footer{
+  margin: 0;
+}
+.footer{
+  height: 30vh;
+  background-color: rgb(36, 36, 35);
+  margin: 0;
+}
+.footer_text{
+
+  text-align: center;
+}
+.footer_text p{
+    font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.footer_text h1{
+    font-family:'Roboto', sans-serif;
+  color: white;
+}
+/*end of footer*/
