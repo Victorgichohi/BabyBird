@@ -121,7 +121,7 @@ background-image: url(../images/laptop4.jpg);
   text-align: center;
 }
 .web2:hover{
-  background-image: url(../images/laptop4.jpg);
+  background-image: url(../images/web2Image1.png);
   cursor: pointer;
   background-size: 150% 150%;
 }
@@ -213,7 +213,7 @@ background-image: url(../images/laptop4.jpg);
   height: 250px;
   
   
-  background-image: url(../images/web1image2.png);
+  background-image: url(../images/web1Image2.png);
   background-size: cover;
 }
 .web2image1{
