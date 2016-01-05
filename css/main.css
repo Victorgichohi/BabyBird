@@ -546,6 +546,29 @@ background-image: url(../images/laptop4.jpg);
   background-image: url(../images/web1image2.png);
   background-size: cover;
 }
+.web2image1{
+
+ left:40%;
+ position: absolute;
+  width: 400px; 
+  height: 250px;
+  
+  
+  background-image: url(../images/web2image1.png);
+  background-size: cover;
+}
+.web2image2{
+
+ left:40%;
+ top: 60%;
+ position: absolute;
+  width: 400px; 
+  height: 250px;
+  
+  
+  background-image: url(../images/web2image2.png);
+  background-size: cover;
+}
 
 #web1Slide p{
   font-family:'Inconsolata','Roboto', sans-serif;
