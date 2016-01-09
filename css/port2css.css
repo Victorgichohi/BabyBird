@@ -30,12 +30,31 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	height: 100vh;
 	border:2px black solid;
 }
+/*back home section*/
 .back_home_button{
 	height: 100vh;
 	margin: 0;
 	width: 100%;
-	background-color:  blue;
+	background-color: aqua;
+	
 }
+.back_home_button:hover{
+	background-color:  darkred;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.back_home_image{
+	/*position: absolute;*/
+	background-image: url(../images/back_arrow.png);
+	background-size: cover;
+	background-color:  aqua;
+	height: 20vh;
+	width: 100%;
+	
+	margin-top: 300%;
+}
+/*back home section end*/
+/*projects section start*/
 .projects_section{
 	height: 100vh;
 	background:
@@ -300,3 +319,25 @@ figure.effect-dishi:hover figcaption {
 figure.effect-dishi:hover img {
 	opacity: 0.4;
 }
+/*start of footer*/
+footer{
+  margin: 0;
+}
+.footer{
+  height: 30vh;
+  background-color: rgb(36, 36, 35);
+  margin: 0;
+}
+.footer_text{
+
+  text-align: center;
+}
+.footer_text p{
+    font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.footer_text h1{
+    font-family:'Roboto', sans-serif;
+  color: white;
+}
+/*end of footer*/
