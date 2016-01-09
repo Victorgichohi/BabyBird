@@ -64,8 +64,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	background-color:  lime;
 }
 .android_projects{
-	margin: 0;
+	
+
 	width: 100%;
 	height: 43vh;
 	background-color:  dimgrey; 
+	
+}
+.bythehills{
+	height: 100%;
+	border:3px solid black;
+	margin-left: 5px;
+}
+.blackbird{
+	height: 100%;
+	border:3px solid black;
+	margin-right: 5px;
+}
+.dishi{
+	height: 100%;
+	border:3px solid black;
+}
+.dishi{
+	margin-top: 2px;
+	width: 100%;
+	/*position: absolute;*/
+	
 }
