@@ -249,6 +249,17 @@ nav.main-nav {
   background-image: url(../images/atom.png);
   background-size: cover;
 }
+.android_studio{
+  margin: 5px;
+  width: 80px;
+	height: 80px;
+  position: relative;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+  background-image: url(../images/android_studio_icon.png);
+  background-size: cover;
+}
 /*second about me stop*/
 
 /*start of skills section*/

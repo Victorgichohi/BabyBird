@@ -31,7 +31,9 @@
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+    <!--google forms start-->
      <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    
     <script type="text/javascript">
       google.load("visualization", "1", {packages:["corechart"]});
       google.setOnLoadCallback(drawChart);
@@ -54,7 +56,45 @@
         chart.draw(data, options);
       }
     </script>
+<!--google forms end-->
+<!--canvasjs start-->
+      <script type="text/javascript">
+	window.onload = function () {
+		var chart = new CanvasJS.Chart("chartContainer",
+		{
+			title:{
+				text: "US Mobile / Tablet OS Market Share, Dec 2012"
+			},
+                        animationEnabled: true,
+			theme: "theme2",
+			data: [
+			{        
+				type: "doughnut",
+				indexLabelFontFamily: "Garamond",       
+				indexLabelFontSize: 20,
+				startAngle:0,
+				indexLabelFontColor: "dimgrey",       
+				indexLabelLineColor: "darkgrey", 
+				toolTipContent: "{y} %", 					
 
+				dataPoints: [
+				{  y: 67.34, indexLabel: "iOS {y}%" },
+				{  y: 28.6, indexLabel: "Android {y}%" },
+				{  y: 1.78, indexLabel: "Kindle {y}%" },
+				{  y: 0.84,  indexLabel: "Symbian {y}%"},
+				{  y: 0.74, indexLabel: "BlackBerry {y}%" },
+				{  y: 2.06,  indexLabel: "Others {y}%"}
+
+				]
+			}
+			]
+		});
+
+		chart.render();
+	}
+	</script>
+	<script type="text/javascript" src="js/canvasjs.min.js"></script>
+<!--canvasjs end-->
   </head>
   <body>
  <!--new skills section start-->
@@ -82,10 +122,12 @@
           </div>
           
         </div>
+        <!--<hr style="width:50%;">-->
+        <br>
         <div class="row chart">
-           <div class="col s2">&nbsp;</div>
-          <div class="col s4">
-            <div id="piechart" style="width: 140%; height: 300px;border:3px solid black;"></div>
+           <!--<div class="col s2">&nbsp;</div>-->
+          <div class="col s6">
+            <div id="piechart" style="width: 800px; height: 500px;"></div>
         </div>
         <div class="col s2">&nbsp;</div>
             <div class="col s4 work_tools">
@@ -102,8 +144,23 @@
               <p>Atom</p>
     
               <div class="atom"></div>
+              
+              <p>Android Studio</p>
+              
+              <div class="android_studio"></div>
            </div>
           <!--<div class="col s2">&nbsp;</div>-->
+        </div>
+        <div class="row my_skills">
+          <div class="col s4">
+            <h4>Android Development</h4>
+            <div id="chartContainer" style="height: 300px; width: 100%;">
+		</div>
+          </div>
+          <div class="col s4">
+            <h4>Web Development</h4>
+            
+          </div>
         </div>
        
     
