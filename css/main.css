@@ -44,8 +44,9 @@ nav.main-nav {
  nav.main-nav a{
    padding-top: 7px;
    color: black;
-   font-size: 20px;
-   font-family:  Arial, Helvetica, sans-serif;
+   font-size: 1.5rem;
+   font-weight: 100;
+    font-family: 'Inconsolata','Roboto', sans-serif;
  }
 
 
@@ -57,7 +58,14 @@ nav.main-nav {
 /*animated nav bar stop*/
 .home_div{
   height: 100vh;
-  background:black;
+  background:
+  linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+
+  ),
+  /* bottom, image */
+  url(../images/portfolioback.png);
     
 
   background-size: cover;
