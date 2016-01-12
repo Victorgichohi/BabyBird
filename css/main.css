@@ -170,7 +170,37 @@ nav.main-nav {
   font-size: 1em;
 }
 
-
+/*second about me start*/
+.about_me_2{
+  height: 60vh;
+  width: 100%;
+  
+}
+.about_me_heading{
+  text-align:  center;
+  
+}
+.about_me_heading h2{
+  font-size: 2rem;
+  font-family:'Roboto', sans-serif;
+  font-weight:   700;
+}
+.about_me_heading hr{
+  width: 40%;
+}
+.about_description2 h3{
+  font-family: 'Inconsolata','Roboto', sans-serif;
+  font-weight:  500;
+  font-size: 2rem;
+}
+.about_description2 p{
+   font-family: 'Inconsolata','Roboto', sans-serif;
+   font-weight:   lighter;
+   font-size: 1rem;
+   text-shadow:  rgba(12, 12, 13, 0.64);
+   /*text-indent:  5cm;*/
+}
+/*second about me stop*/
 
 /*start of skills section*/
 .skills{
