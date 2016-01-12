@@ -32,6 +32,32 @@
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+    <!--google forms start-->
+     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Android',     45],
+           ['UI/UX',  10],
+          ['WebDevelopment',      45]
+         
+          ]);
+
+        var options = {
+          title: 'Technologies And Skills'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+<!--google forms end-->
   </head>
   <body>
 
@@ -103,220 +129,72 @@
 
     <!--another nav-bar end-->
 
-    <!-- start of skills and description div -->
-
-    <div id="About_link">
-    <div class="About_me_div">
-      <div class="row about_me_row ">
-
-      <div class="col s2 place_holder"></div>
-      <div class="col s10 about_me_description">
-        <div class="row title_intro">
-          <br>
-          <h1 style="text-align:center;">About me</h1>
-          <br>
-          <hr style="width:40%;">
-          <br>
-          <div class="col s2">&nbsp;</div>
-          <div class="col s10">
-             <br><br><br>
-            <p class="first_title">My life in a nutshell. </p>
+    <!--new skills section start-->
+        <div class="row about_me_2">
+          <div class="row about_me_heading">
+            <h2>About ME</h2>
+            <hr>
           </div>
-
-        </div>
-        <br><br>
-        <div class="row main_description">
-           <div class="col s2">&nbsp;</div>
-          <div class="col s10">
-            <p class="paragraph_on_me">I try as much as possible to balance between life at work and outside work as i believe this will give me 100% efficiency.</p>
-              <br><br>
-            <p class="paragraph_on_me">My Interest in programming developed from my love for mathematics and tendancy of always wanting to solve problems and puzzles.
-              On a normal day when am not working,I enjoy playing a lot of video games,Call Of Duty being the top of the chart.I also blog
-              about random creative ideas that i have or about an awesome solution.You can check out my blog here.
-
-           Preferably,I love working in a team as I believe everyone has different ideas and views towards something which when brought together will bring a better product.
-           </p>
-          </div>
-
-        </div>
-         <br><br><br>
-        <div class="row conclusion">
-          <div class="col s2">&nbsp;</div>
-          <div class="col s10">
-            <p class="conclusion_paragraph"> If you would like to know more about me,please click here to visit my <a href="http://codescratch.azurewebsites.net/" target="_blank">blog</a> or get my Resume <a href="victorgichohicv.pdf" target="_blank"> here.</a></p>
-          </div>
-
-        </div>
-
-
-      </div>
-
-    </div>
-    </div>
-    </div>
-
-    <!-- end of  description dev -->
-
-    <!--start of the skills div-->
-    <div id="skills_link">
-    <div class="skills">
-      <div class="row skills_title">
-        <div class="col s1">&nbsp;</div>
-        <div class="col s10">
-          <br>
-          <p class="skills_title_text">Skills And Proficiency</p>
-          <br>
-          <hr>
-          <br>
-          <p class="skills_description">This are my current skills in general which am quite proficient and familiar with.On addition to this,
-            I have a good familiarity with deploying websites to platforms like Windows Azure and Heroku.
-            </p>
-        </div>
-        <div class="col s1">&nbsp;</div>
-      </div>
-      <hr style="width:100%;">
-      <br>
-      <div class="row skills_rate_and_icons">
-        <div class="col s3 Front_End">
-          <p>Front-End</p>
-          <br>
-          <p>HTML</p>
-          <hr style="width:100%;">
-          <div class="row">
-            <div class=" col s4 html"></div>
-            <div class="col s8 ratings_icons">
+          <br><br>
+          <div class="row about_description2">
+            <div class="col s2">&nbsp;</div>
+            <div class="col s4">
+              <h3>Who Am I</h3>
               <br>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle-thin"></i>
-              <i class="fa fa-circle-thin"></i>
+              <p>I am sure you just want to check my work out, so I'll be quick.I am not Your everyday geek,Infact,I am the unique geek among the lot.
+                Unique is a strong word,I know,but here  are some facts to support it.Besides coding,I enjoy poultry farming.
+                I rare chicks which i get to sell to many customers around my community.I enjoy puzzles and coding challenges and oftenly
+                try to solve Kartas on <a href="http://codewars.com" target="_blank">Codewars.</a></p>
             </div>
-          </div>
-
-
-           <p>css</p>
-          <hr style="width:100%;">
-          <div class="row">
-            <div class=" col s4 css"></div>
-            <div class="col s8 ratings_icons">
+            <div class="col s4">
+              <h3>What I do</h3>
               <br>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle-thin"></i>
-              <i class="fa fa-circle-thin"></i>
+              <p>I enjoy developing Android Applications as it gives me more control on developing a full product ready for deploying.On the web,I enjoy Front-end development
+                and playing around with Javascript.At times i find myself getting my hands dirty with Python and Django Back-end.Here is a summary of my skills.</p>
+                <br>
+                <ul>
+                  <ol><span class="my_skills_title">Web-Development</span>:HTML,CSS,Jquery,Sass and Jade preprocessors and AngularJS.</ol>
+                  <ol><span class="my_skills_title">Android-Development</span>:Android XML layout,Working with activities,Calling API's on an Activity,
+                    Integrating core-libraries in |Android.
+                </ul>
             </div>
+            <div class="col s2">&nbsp;</div>
           </div>
-
-           <p>Javascript</p>
-          <hr style="width:100%;">
-          <div class="row">
-            <div class=" col s4 javascript"></div>
-            <div class="col s8 ratings_icons">
-              <br>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle-thin"></i>
-              <i class="fa fa-circle-thin"></i>
-               <i class="fa fa-circle-thin"></i>
-
-            </div>
-          </div>
-
-
+          
         </div>
-        <div class="col s3 Backend">
-          <p>Backend</p>
-          <br>
-          <br>
-            <p>Python and Django</p>
-          <hr style="width:100%;">
-          <br>
-          <div class="row">
-            <div class=" col s4 python"></div>
-            <div class="col s8 ratings_icons">
-              <br>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle-thin"></i>
-              <i class="fa fa-circle-thin"></i>
-               <i class="fa fa-circle-thin"></i>
-            </div>
-          </div>
-
-
+        <!--<hr style="width:50%;">-->
+        <br>
+        <div class="row chart">
+           <!--<div class="col s2">&nbsp;</div>-->
+          <div class="col s6">
+            <div id="piechart" style="width: 800px; height: 500px;"></div>
         </div>
-        <div class="col s3 Android">
-            <p>Android</p>
-          <br>
-          <p>Android Front-end</p>
-            <hr style="width:100%;">
-           <div class="row">
-            <div class=" col s4 android_front_end"></div>
-            <div class="col s8 ratings_icons">
+        <div class="col s2">&nbsp;</div>
+            <div class="col s4 work_tools">
+              <p>Tools OF Work</p>
               <br>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle-thin"></i>
-            </div>
-          </div>
-
-
-
-          <p>Android back end</p>
-          <hr style="width:100%;">
-           <div class="row">
-            <div class=" col s4 android_back_end"></div>
-            <div class="col s8 ratings_icons">
-              <br>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle"></i>
-              <i class="fa fa-circle-thin"></i>
-              <i class="fa fa-circle-thin"></i>
-               <i class="fa fa-circle-thin"></i>
-            </div>
-          </div>
-
-
+              <p>Git</p>
+    
+              <div class="git"></div>
+              <p>Linux</p>
+    
+    
+              <div class="linux"></div>
+    
+              <p>Atom</p>
+    
+              <div class="atom"></div>
+              
+              <p>Android Studio</p>
+              
+              <div class="android_studio"></div>
+           </div>
+          <!--<div class="col s2">&nbsp;</div>-->
         </div>
-        <div class="col s3 work_tools">
-          <p>Tools OF Work</p>
-          <br>
-          <p>Git</p>
-
-          <div class="git"></div>
-          <p>Linux</p>
-
-
-          <div class="linux"></div>
-
-           <p>Atom</p>
-
-          <div class="atom"></div>
-
-
-        </div>
-      </div>
-    </div>
-    </div>
-    <!--end of skills div-->
-
+       
+       
+    
+    <!--end of new skills section-->
       <br>
     <!-- start of contact div -->
     <div id="Contact_link">
