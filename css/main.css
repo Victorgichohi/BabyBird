@@ -201,6 +201,54 @@ nav.main-nav {
    text-shadow:  rgba(12, 12, 13, 0.64);
    /*text-indent:  5cm;*/
 }
+.git{
+  width: 80px;
+	height: 80px;
+	position: relative;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+.git:before{
+    content: "\f113";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 60px;
+    position: absolute;
+}
+.linux{
+  width: 80px;
+	height: 80px;
+	position: relative;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+.linux:before{
+  content: "\f17c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 60px;
+    position: absolute;
+}
+.atom{
+  width: 80px;
+	height: 80px;
+  position: relative;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+  background-image: url(../images/atom.png);
+  background-size: cover;
+}
 /*second about me stop*/
 
 /*start of skills section*/
@@ -342,54 +390,7 @@ nav.main-nav {
     font-size: 60px;
     position: absolute
 }
-.git{
-  width: 80px;
-	height: 80px;
-	position: relative;
-	-moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
-	border-radius: 40px;
-}
-.git:before{
-    content: "\f113";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #000;
-    font-size: 60px;
-    position: absolute;
-}
-.linux{
-  width: 80px;
-	height: 80px;
-	position: relative;
-	-moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
-	border-radius: 40px;
-}
-.linux:before{
-  content: "\f17c";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #000;
-    font-size: 60px;
-    position: absolute;
-}
-.atom{
-  width: 80px;
-	height: 80px;
-  position: relative;
-	-moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
-	border-radius: 40px;
-  background-image: url(../images/atom.png);
-  background-size: cover;
-}
+
 
 /*end of skills section*/
 
