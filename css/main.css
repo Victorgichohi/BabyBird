@@ -189,17 +189,30 @@ nav.main-nav {
   width: 40%;
   
 }
+
 .about_description2 h3{
   font-family: 'Inconsolata','Roboto', sans-serif;
   font-weight:  500;
   font-size: 2rem;
 }
+
 .about_description2 p{
    font-family: 'Inconsolata','Roboto', sans-serif;
    font-weight:   lighter;
    font-size: 1rem;
    text-shadow:  rgba(12, 12, 13, 0.64);
    /*text-indent:  5cm;*/
+}
+.about_description2 ol{
+  font-family: 'Inconsolata','Roboto', sans-serif;
+   font-weight:   lighter;
+   font-size: 1rem;
+   text-shadow:  rgba(12, 12, 13, 0.64);
+   padding: 3mm;
+}
+.my_skills_title{
+  font-weight:  700;
+  font-family: 'Roboto', sans-serif;
 }
 .git{
   width: 80px;
