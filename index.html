@@ -35,77 +35,72 @@
 		<![endif]-->
     <!--canvasjs start-->
     <script type="text/javascript">
-   window.onload = function () {
-	var chart = new CanvasJS.Chart("android_Container",
-	{
-		title:{
-			text: "U.S Smartphone OS Market Share, Q3 2012",
-			fontFamily: "Impact",
-			fontWeight: "normal"
-		},
-
-		legend:{
-			verticalAlign: "bottom",
-			horizontalAlign: "center"
-		},
-		data: [
+	window.onload = function () {
+		var chart = new CanvasJS.Chart("android_Container",
 		{
-			//startAngle: 45,
-			indexLabelFontSize: 20,
-			indexLabelFontFamily: "Garamond",
-			indexLabelFontColor: "darkgrey",
-			indexLabelLineColor: "darkgrey",
-			indexLabelPlacement: "outside",
-			type: "doughnut",
-			showInLegend: true,
-			dataPoints: [
-				{  y: 53.37, legendText:"Android 53%", indexLabel: "Android 53%" },
-				{  y: 35.0, legendText:"iOS 35%", indexLabel: "Apple iOS 35%" },
-				{  y: 7, legendText:"Blackberry 7%", indexLabel: "Blackberry 7%" },
-				{  y: 2, legendText:"Windows 2%", indexLabel: "Windows Phone 2%" },
-				{  y: 5, legendText:"Others 5%", indexLabel: "Others 5%" }
+			title:{
+				text: "US Mobile / Tablet OS Market Share, Dec 2012"
+			},
+                        animationEnabled: true,
+			theme: "theme2",
+			data: [
+			{        
+				type: "doughnut",
+				indexLabelFontFamily: "Garamond",       
+				indexLabelFontSize: 20,
+				startAngle:0,
+				indexLabelFontColor: "dimgrey",       
+				indexLabelLineColor: "darkgrey", 
+				toolTipContent: "{y} %", 					
+
+				dataPoints: [
+				{  y: 67.34, indexLabel: "iOS {y}%" },
+				{  y: 28.6, indexLabel: "Android {y}%" },
+				{  y: 1.78, indexLabel: "Kindle {y}%" },
+				{  y: 0.84,  indexLabel: "Symbian {y}%"},
+				{  y: 0.74, indexLabel: "BlackBerry {y}%" },
+				{  y: 2.06,  indexLabel: "Others {y}%"}
+
+				]
+			}
 			]
-		}
-		]
-	});
+		});
 
-	chart.render();
-  var chart2 = new CanvasJS.Chart("web_Container",
-	{
-		title:{
-			text: "U.S Smartphone OS Market Share, Q3 2012",
-			fontFamily: "Impact",
-			fontWeight: "normal"
-		},
-
-		legend:{
-			verticalAlign: "bottom",
-			horizontalAlign: "center"
-		},
-		data: [
+		chart.render();
+    
+    var chart2 = new CanvasJS.Chart("web_Container",
 		{
-			//startAngle: 45,
-			indexLabelFontSize: 20,
-			indexLabelFontFamily: "Garamond",
-			indexLabelFontColor: "darkgrey",
-			indexLabelLineColor: "darkgrey",
-			indexLabelPlacement: "outside",
-			type: "doughnut",
-			showInLegend: true,
-			dataPoints: [
-				{  y: 53.37, legendText:"Android 53%", indexLabel: "Android 53%" },
-				{  y: 35.0, legendText:"iOS 35%", indexLabel: "Apple iOS 35%" },
-				{  y: 7, legendText:"Blackberry 7%", indexLabel: "Blackberry 7%" },
-				{  y: 2, legendText:"Windows 2%", indexLabel: "Windows Phone 2%" },
-				{  y: 5, legendText:"Others 5%", indexLabel: "Others 5%" }
-			]
-		}
-		]
-	});
+			title:{
+				text: "US Mobile / Tablet OS Market Share, Dec 2012"
+			},
+                        animationEnabled: true,
+			theme: "theme2",
+			data: [
+			{        
+				type: "doughnut",
+				indexLabelFontFamily: "Garamond",       
+				indexLabelFontSize: 20,
+				startAngle:0,
+				indexLabelFontColor: "dimgrey",       
+				indexLabelLineColor: "darkgrey", 
+				toolTipContent: "{y} %", 					
 
-	chart2.render();
-}
-</script>
+				dataPoints: [
+				{  y: 67.34, indexLabel: "iOS {y}%" },
+				{  y: 28.6, indexLabel: "Android {y}%" },
+				{  y: 1.78, indexLabel: "Kindle {y}%" },
+				{  y: 0.84,  indexLabel: "Symbian {y}%"},
+				{  y: 0.74, indexLabel: "BlackBerry {y}%" },
+				{  y: 2.06,  indexLabel: "Others {y}%"}
+
+				]
+			}
+			]
+		});
+
+		chart2.render();
+	}
+	</script>
 <script type="text/javascript" src="js/canvasjs.min.js"></script>
 
     <!--canvasjs stop-->
@@ -236,6 +231,7 @@
       <br> <br>
       
       <!--start of skills section-->
+     <div id="skills_link">
       <div class="row myskills"> 
         <h2>Skills</h2>
         <div class="col s6 android_development">
@@ -251,6 +247,7 @@
         </div>
       </div>
        
+      </div>
       </div>
       <!--end of skills section-->
     <!-- start of contact div -->
