@@ -112,7 +112,12 @@ nav.main-nav {
   padding: 5px;
 }
 
-
+.resume_download{
+  /*color: whitesmoke;*/
+  
+  font-family:'Inconsolata','Roboto', sans-serif;
+  font-size: 1.3rem;
+}
 
 /*start of about me divs*/
 .About_me_div{
@@ -230,70 +235,16 @@ nav.main-nav {
 .my_skills_title{
   font-weight:  700;
   font-family: 'Roboto', sans-serif;
-}
-.git{
-  width: 80px;
-	height: 80px;
-	position: relative;
-	-moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
-	border-radius: 40px;
-}
-.git:before{
-    content: "\f113";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #000;
-    font-size: 60px;
-    position: absolute;
-}
-.linux{
-  width: 80px;
-	height: 80px;
-	position: relative;
-	-moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
-	border-radius: 40px;
-}
-.linux:before{
-  content: "\f17c";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #000;
-    font-size: 60px;
-    position: absolute;
-}
-.atom{
-  width: 80px;
-	height: 80px;
-  position: relative;
-	-moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
-	border-radius: 40px;
-  background-image: url(../images/atom.png);
-  background-size: cover;
-}
-.android_studio{
-  /*margin: 5px;*/
-  width: 80px;
-	height: 80px;
-  position: relative;
-	-moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
-	border-radius: 40px;
-  background-image: url(../images/android_studio_icon.png);
-  background-size: cover;
+  
 }
 /*second about me stop*/
 
 /*start of contact segment*/
-
+#Contact_link{
+  /*border:3px solid black;*/
+  margin-top: 100px;
+  /*position: relative;*/
+}
 .contact_title{
   /*border: 2px solid black;*/
  text-align:  center;

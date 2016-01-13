@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Victor Gichohi</title>
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <!-- font awesome -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!--Import Google Icon Font-->
@@ -32,32 +33,7 @@
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-    <!--google forms start-->
-     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    
-    <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      function drawChart() {
-
-        var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
-          ['Android',     45],
-           ['UI/UX',  10],
-          ['WebDevelopment',      45]
-         
-          ]);
-
-        var options = {
-          title: 'Technologies And Skills'
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-        chart.draw(data, options);
-      }
-    </script>
-<!--google forms end-->
+   
   </head>
   <body>
 
@@ -97,7 +73,7 @@
                   <a href="https://google.com/+victorgichohi" target="_blank">
                     <i class="fa fa-google fa-2x hvr-buzz "></i>
                   </a>
-                  <a href="victorgichohicv.pdf">View resume</a>
+                  <a href="victorgichohicv.pdf" class="resume_download">View resume</a>
                 </div>
                 <br><br>
                 <a href="#About_link">
@@ -176,42 +152,21 @@
         </div>
         <!--<hr style="width:50%;">-->
         <br>
-        <div class="row chart">
-           <!--<div class="col s2">&nbsp;</div>-->
-          <div class="col s6">
-            <div id="piechart" style="width: 800px; height: 500px;"></div>
-        </div>
-        <div class="col s2">&nbsp;</div>
-            <div class="col s4 work_tools">
-              <p>Tools OF Work</p>
-              <br>
-              <p>Git</p>
-    
-              <div class="git"></div>
-              <p>Linux</p>
-    
-    
-              <div class="linux"></div>
-    
-              <p>Atom</p>
-    
-              <div class="atom"></div>
-       </div>
-          <!--<div class="col s2">&nbsp;</div>-->
-        </div>
+       
        </div>
        
     
     <!--end of new skills section-->
-      <br>
+      <br> <br>
     <!-- start of contact div -->
     
     
           
           
     <div id="Contact_link">
+     
     <div class="row contact_form">
-      <div class="row contact_title">
+      <div class="contact_title">
           <p>Contact Me</p>
           <br>
           <hr>
@@ -229,7 +184,7 @@
           </div>
 
         <div class="row">
-            <div class="col s2">&nbsp;</div>
+            <div class="col s3">&nbsp;</div>
           <div class="col s6">
             <br><br>
 
@@ -276,16 +231,12 @@
 
            </form>
           </div>
+          <div class="col s3">&nbsp;</div>
         </div>
     </div>
           <br><br>
           <!-- submit button -->
-          
-        
-
-      
-      </div>
-      <footer>
+ <footer>
         <div class="row footer">
         <div class="col s4">&nbsp;</div>
 
@@ -300,11 +251,10 @@
         <div class="col s4">&nbsp;</div>
         </div>
       </footer>
-    </div>
-    </div>
+    
 
     <!-- end of contact div -->
-  </div>
+
 
 <!-- jquery smooth scroll to id's -->
 <script>
