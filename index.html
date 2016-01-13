@@ -33,6 +33,82 @@
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+    <!--canvasjs start-->
+    <script type="text/javascript">
+   window.onload = function () {
+	var chart = new CanvasJS.Chart("android_Container",
+	{
+		title:{
+			text: "U.S Smartphone OS Market Share, Q3 2012",
+			fontFamily: "Impact",
+			fontWeight: "normal"
+		},
+
+		legend:{
+			verticalAlign: "bottom",
+			horizontalAlign: "center"
+		},
+		data: [
+		{
+			//startAngle: 45,
+			indexLabelFontSize: 20,
+			indexLabelFontFamily: "Garamond",
+			indexLabelFontColor: "darkgrey",
+			indexLabelLineColor: "darkgrey",
+			indexLabelPlacement: "outside",
+			type: "doughnut",
+			showInLegend: true,
+			dataPoints: [
+				{  y: 53.37, legendText:"Android 53%", indexLabel: "Android 53%" },
+				{  y: 35.0, legendText:"iOS 35%", indexLabel: "Apple iOS 35%" },
+				{  y: 7, legendText:"Blackberry 7%", indexLabel: "Blackberry 7%" },
+				{  y: 2, legendText:"Windows 2%", indexLabel: "Windows Phone 2%" },
+				{  y: 5, legendText:"Others 5%", indexLabel: "Others 5%" }
+			]
+		}
+		]
+	});
+
+	chart.render();
+  var chart2 = new CanvasJS.Chart("web_Container",
+	{
+		title:{
+			text: "U.S Smartphone OS Market Share, Q3 2012",
+			fontFamily: "Impact",
+			fontWeight: "normal"
+		},
+
+		legend:{
+			verticalAlign: "bottom",
+			horizontalAlign: "center"
+		},
+		data: [
+		{
+			//startAngle: 45,
+			indexLabelFontSize: 20,
+			indexLabelFontFamily: "Garamond",
+			indexLabelFontColor: "darkgrey",
+			indexLabelLineColor: "darkgrey",
+			indexLabelPlacement: "outside",
+			type: "doughnut",
+			showInLegend: true,
+			dataPoints: [
+				{  y: 53.37, legendText:"Android 53%", indexLabel: "Android 53%" },
+				{  y: 35.0, legendText:"iOS 35%", indexLabel: "Apple iOS 35%" },
+				{  y: 7, legendText:"Blackberry 7%", indexLabel: "Blackberry 7%" },
+				{  y: 2, legendText:"Windows 2%", indexLabel: "Windows Phone 2%" },
+				{  y: 5, legendText:"Others 5%", indexLabel: "Others 5%" }
+			]
+		}
+		]
+	});
+
+	chart2.render();
+}
+</script>
+<script type="text/javascript" src="js/canvasjs.min.js"></script>
+
+    <!--canvasjs stop-->
    
   </head>
   <body>
@@ -158,6 +234,25 @@
     
     <!--end of new skills section-->
       <br> <br>
+      
+      <!--start of skills section-->
+      <div class="row myskills"> 
+        <h2>Skills</h2>
+        <div class="col s6 android_development">
+         <h3>Android</h3> 
+         <br>
+         <div id="android_Container" style="height: 300px; width: 100%;">
+         </div>
+          </div>
+        <div class="col s6 web_development">
+          <h3>Web Development</h3>
+          <br>
+        <div id="web_Container" style="height: 300px; width: 100%;">
+        </div>
+      </div>
+       
+      </div>
+      <!--end of skills section-->
     <!-- start of contact div -->
     
     

@@ -238,7 +238,12 @@ nav.main-nav {
   
 }
 /*second about me stop*/
-
+/*start of chart segment*/
+.myskills{
+  margin-top: 100px;
+  border:solid 3px black;
+}
+/*end of chart segment*/
 /*start of contact segment*/
 #Contact_link{
   /*border:3px solid black;*/
