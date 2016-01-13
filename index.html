@@ -38,15 +38,13 @@
 	window.onload = function () {
 		var chart = new CanvasJS.Chart("android_Container",
 		{
-			title:{
-				text: "US Mobile / Tablet OS Market Share, Dec 2012"
-			},
-                        animationEnabled: true,
+			
+      animationEnabled: true,
 			theme: "theme2",
 			data: [
 			{        
 				type: "doughnut",
-				indexLabelFontFamily: "Garamond",       
+				indexLabelFontFamily: 'Inconsolata',       
 				indexLabelFontSize: 20,
 				startAngle:0,
 				indexLabelFontColor: "dimgrey",       
@@ -70,15 +68,12 @@
     
     var chart2 = new CanvasJS.Chart("web_Container",
 		{
-			title:{
-				text: "US Mobile / Tablet OS Market Share, Dec 2012"
-			},
-                        animationEnabled: true,
+			animationEnabled: true,
 			theme: "theme2",
 			data: [
 			{        
 				type: "doughnut",
-				indexLabelFontFamily: "Garamond",       
+				indexLabelFontFamily: 'Inconsolata',       
 				indexLabelFontSize: 20,
 				startAngle:0,
 				indexLabelFontColor: "dimgrey",       
@@ -232,8 +227,10 @@
       
       <!--start of skills section-->
      <div id="skills_link">
-      <div class="row myskills"> 
+      <div class="row myskills">
         <h2>Skills</h2>
+        <hr style="width:50%;">
+        <br><br>
         <div class="col s6 android_development">
          <h3>Android</h3> 
          <br>
