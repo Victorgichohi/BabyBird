@@ -211,12 +211,21 @@ nav.main-nav {
    text-shadow:  rgba(12, 12, 13, 0.64);
    /*text-indent:  5cm;*/
 }
-.about_description2 ol{
+.my_technologies h3{
+  font-family: 'Inconsolata','Roboto', sans-serif;
+  font-weight:  500;
+  font-size: 2rem;
+  text-align:  center;
+}
+/*.my_technologies hr{
+  width:50%;
+}*/
+.my_technologies ol{
   font-family: 'Inconsolata','Roboto', sans-serif;
    font-weight:   lighter;
    font-size: 1rem;
    text-shadow:  rgba(12, 12, 13, 0.64);
-   padding: 3mm;
+   padding: 2mm;
 }
 .my_skills_title{
   font-weight:  700;
