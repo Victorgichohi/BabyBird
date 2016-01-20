@@ -202,7 +202,6 @@ nav.main-nav {
   width: 40%;
   
 }
-
 .about_description2 h3{
   font-family: 'Inconsolata','Roboto', sans-serif;
   font-weight:  500;
@@ -327,3 +326,13 @@ if it's not present, don't show loader */
 	background: url(../images/balls.gif) center no-repeat #fff;
 }
 /*preloader stop*/
+
+
+/*making the divs responsive*/
+
+@media screen and (max-width: 1130px){
+.about_description2 {
+    width: 100%;
+    height: 400px;
+    }
+}
