@@ -10,7 +10,7 @@ $(function(){
 			//  var scroll = $(window).scrollTop();
 			// 	  console.log(scroll);
     });
-
+      $(".button-collapse").sideNav();
 });
 // start of slide in
 
