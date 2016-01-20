@@ -82,15 +82,25 @@ nav.main-nav {
   height: 100vh;
   margin: 0;
 }
-.intro{
-  padding-top: 100px;
-}
 .my_name h1 {
   font-family: 'Inconsolata','Roboto', sans-serif;
 
   color: white;
   font-size: 2rem;
   
+}
+.my_name{
+  padding-top: 5em;
+}
+.my_development{
+  padding-top: 3em;
+}
+.my_development{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.social{
+  padding-top: 3em;
 }
 .my_development h5 {
   font-family: 'Inconsolata','Roboto', sans-serif;
@@ -111,14 +121,20 @@ nav.main-nav {
   color:rgb(147, 0, 131);
   padding: 5px;
 }
-
+.down_arrow{
+  padding-top: 3em;
+}
 .resume_download{
   /*color: whitesmoke;*/
   
   font-family:'Inconsolata','Roboto', sans-serif;
   font-size: 1.3rem;
 }
-
+@media screen and (max-width: 625px){
+  .intro_main{
+    padding: 0em !important;
+  }
+}
 /*start of about me divs*/
 .About_me_div{
   height: 100vh;
