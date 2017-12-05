@@ -52,14 +52,11 @@
 				toolTipContent: "{y} %",
 
 				dataPoints: [
-				{  y: 30.0, indexLabel: "Designing and developing UI layout following material design principles {y}%" },
+				{  y: 50.0, indexLabel: "Designing and developing UI layout following material design principles {y}%" },
 				{  y: 20.0, indexLabel: "Working with SQL database on android {y}%" },
 				{  y: 20.0, indexLabel: "Implementing recycler views and card views {y}%" },
-				{  y: 10.0,  indexLabel: "Client-server communication in android {y}%"},
-				{  y: 20.0, indexLabel: "Firebase Cloud Messaging with Android{y}%" }
-
-
-				]
+				{  y: 10.0,  indexLabel: "Client-server communication{y}%"}
+        ]
 			}
 			]
 		});
@@ -81,11 +78,9 @@
 				toolTipContent: "{y} %",
 
 				dataPoints: [
-				{  y: 30.0, indexLabel: "HTML and CSS {y}%" },
-				{  y: 20.0, indexLabel: "Jquery {y}%" },
-				{  y: 15.0, indexLabel: "AngularJs {y}%" },
-				{  y: 15.0,  indexLabel: "Sass and Jade {y}%"},
-				{  y: 20.0, indexLabel: "Python and Django {y}%" }
+				{  y: 20.0, indexLabel: "HTML and CSS {y}%" },
+				{  y: 30.0, indexLabel: "Javascript {y}%" },
+				{  y: 50.0, indexLabel: "Python and Django {y}%" }
 
 
 				]
@@ -94,6 +89,34 @@
 		});
 
 		chart2.render();
+
+    var chart3 = new CanvasJS.Chart("animation_Container",
+    {
+      animationEnabled: true,
+      theme: "theme2",
+      data: [
+      {
+        type: "doughnut",
+        indexLabelFontFamily: 'Inconsolata',
+        indexLabelFontSize: 20,
+        startAngle:0,
+        indexLabelFontColor: "dimgrey",
+        indexLabelLineColor: "darkgrey",
+        toolTipContent: "{y} %",
+
+        dataPoints: [
+        {  y: 40.0, indexLabel: "Motion captureTechnology {y}%" },
+        {  y: 40.0, indexLabel: "Professional character rigging {y}%" },
+        {  y: 10.0, indexLabel: "character modelling. {y}%" },
+        {  y: 10.0,  indexLabel: "Character texturing and rendering.{y}%"}
+
+
+        ]
+      }
+      ]
+    });
+
+    chart3.render();
 	}
 	</script>
 <script type="text/javascript" src="js/canvasjs.min.js"></script>
@@ -207,7 +230,7 @@
             <div class="col l4 push-l2 m12 s12">
               <h3>Who Am I</h3>
               <br>
-              <p>I am sure you just want to check my work out, so I'll be quick.I am not Your everyday geek,Infact,I am the unique geek among the lot.
+              <p>I am sure you want to check my work out, so I'll be quick.I am not Your everyday geek,Infact,I am the unique geek among the lot.
                 Unique is a strong word,I know,but here  are some facts to support it.Besides coding,I enjoy poultry farming.
                 I rear chicks which i sell to clients.I enjoy puzzles and coding challenges and at times
                 try to solve Kartas on <a href="http://codewars.com" target="_blank">Codewars.</a></p>
@@ -230,10 +253,11 @@
               <hr>
 
               <ul>
-                  <ol><span class="my_skills_title">Web-Development</span>:HTML,CSS,Python and Django,PostgreSql,Sass and Jade preprocessors and AngularJS.</ol>
+                  <ol><span class="my_skills_title">Web-Development</span>:HTML,CSS,Python and Django,PostgreSql and javascript</ol>
                   <ol><span class="my_skills_title">Android-Development</span>:Designing and developing UI layout following material design principles,Working with SQL database on android,Implementing recycler views and card views,
-                  Client-server communication in android.
-                </ul>
+                  Client-server communication in android.</ol>
+                  <ol><span class="my_skills_title">3d Animation</span>:Motion capture technology expert on both body and facial capture.Professional character rigging.Cloth simulation.Maya muscles system.Python and Mel scripting for maya.</ol>
+              </ul>
             </div>
 
           </div>
@@ -269,6 +293,13 @@
       </div>
 
       </div>
+      <div class="row myskills">
+        <div class="col l6 push-l3 m6 s12  android_development">
+         <h3>3d Animation</h3>
+         <br>
+         <div id="animation_Container" style="height: 300px; width: 100%;">
+         </div>
+          </div>
       </div>
       <!--end of skills section-->
     <!-- start of contact div -->
@@ -289,8 +320,8 @@
          <div class="row">
 
               <div class="s4 thankyou_text m4 push-s4">
-                <p>Thankyou for taking your time to know about me,I look forward to hear from you.<p>
-                <p>If you would like a direct contact,<a href="mailto:victorgichohi48@gmail.com?">click here</a> for a direct email link.</p>
+                <p>Thank-you for taking your time to know about me,I look forward to hear from you.<p>
+                <p>If you would like to directly contact me,<a href="mailto:victorgichohi48@gmail.com?">click here</a> for a direct email link.</p>
               </div>
 
             </div>
@@ -355,7 +386,7 @@
 
           <div class="col s4 footer_text push-s4">
             <br><br>
-            <p>&copy;Copyright 2016</p>
+            <p>&copy;Copyright 2017</p>
             <br>
             <p>Victor gichohi</p>
             <br>
