@@ -79,7 +79,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       rgba(12, 12, 13, 0.64),
     rgba(12, 12, 13, 0.64)
 
-  ),url(../images/portfolioback.png);
+  ),url(../images/animation_b_ground.jpg);
 	background-size: cover;	
 }
 .projects_heading{
@@ -182,7 +182,36 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*---------------*/
 /***** byThehills *****/
 /*---------------*/
+.animation_jimmy{
+	height: 100%;
+	background:  linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
 
+  ),url(../images/animation_jimmy.png);
+  background-size: cover;
+	/*border:3px solid black;*/
+}
+.animation_bora{
+	height: 100%;
+	background:  linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+
+  ),url(../images/animation_bora.png);
+  background-size: cover;
+	/*border:3px solid black;*/
+}
+.animation_muhoho{
+	height: 100%;
+	background:  linear-gradient(
+      rgba(12, 12, 13, 0.64),
+    rgba(12, 12, 13, 0.64)
+
+  ),url(../images/animation_muhoho.png);
+  background-size: cover;
+	/*border:3px solid black;*/
+}
 .effect-hills{
 	height: 100%;
 	width: 100%;
