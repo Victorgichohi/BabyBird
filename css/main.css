@@ -118,7 +118,8 @@ nav.main-nav {
 
 .social i {
   /*margin-top: 5px;*/
-  color:rgb(147, 0, 131);
+  /* color:rgb(147, 0, 131); */
+  color:white;
   padding: 5px;
 }
 .down_arrow{
@@ -201,7 +202,7 @@ nav.main-nav {
 
 /*second about me start*/
 .about_me_2{
-  height: 60vh;
+  height: 40vh;
   width: 100%;
   
 }
@@ -254,9 +255,7 @@ nav.main-nav {
 }
 /*second about me stop*/
 /*start of chart segment*/
-#skills_link{
-  margin-top: 100px;
-  
+#skills_link{ 
   height: 70vh;
 }
 .myskills h2{
@@ -309,7 +308,7 @@ footer{
   margin: 0;
 }
 .footer{
-  height: 30vh;
+  height: 20vh;
   background-color: rgb(36, 36, 35);
   margin: 0;
 }
