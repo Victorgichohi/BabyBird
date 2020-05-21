@@ -1,2 +1,1 @@
-# BabyBird
 my personal website
